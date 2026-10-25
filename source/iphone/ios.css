@@ -1,0 +1,61 @@
+/* iPhone-only presentation. Original desktop files remain unchanged. */
+:root{--ios-bottom:calc(70px + env(safe-area-inset-bottom,0px));--ios-top:env(safe-area-inset-top,0px)}
+.iphone-tabs,.iphone-install-banner,.iphone-install-dialog{display:none}
+@media(max-width:920px){
+  html{-webkit-text-size-adjust:100%;text-size-adjust:100%;background:#121619}
+  body{padding-bottom:var(--ios-bottom);min-height:100svh}
+  .header{height:calc(64px + var(--ios-top));padding-top:var(--ios-top);padding-left:15px;padding-right:15px;position:sticky;top:0;z-index:48;background:#13191cf5;backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px)}
+  .header .top-nav{display:none!important}
+  .header .brand{font-size:13px;letter-spacing:1.2px;white-space:nowrap}
+  .header .brand-icon{width:38px;height:38px;font-size:30px;line-height:35px}
+  .header .brand small{display:none}
+  .header .header-end .offline{display:none!important}
+  .header .header-end .icon-btn{min-width:38px;min-height:38px;border-radius:11px}
+  .header .header-end{gap:10px}
+  .training{padding-top:18px}
+  .library.open{top:calc(64px + var(--ios-top));bottom:var(--ios-bottom);max-width:min(85vw,360px);width:320px;z-index:47;border-right:1px solid #36453c;box-shadow:0 18px 65px #0008}
+  .library.open .course-list{max-height:none}
+  .iphone-tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));position:fixed;bottom:0;left:0;right:0;height:var(--ios-bottom);padding:7px 12px calc(7px + env(safe-area-inset-bottom,0px));gap:6px;background:#161d20f5;border-top:1px solid #303b3d;box-shadow:0 -12px 35px #0b0e1066;z-index:49;backdrop-filter:blur(22px);-webkit-backdrop-filter:blur(22px)}
+  .iphone-tabs button{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:50px;border-radius:12px;gap:3px;font-size:10px;letter-spacing:.15px;color:#9ba9a6;padding:3px;touch-action:manipulation}
+  .iphone-tabs button svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+  .iphone-tabs button.active{background:#2a392b;color:#c2e88d}
+  .iphone-tabs button.active:before{content:"";position:absolute;top:2px;width:18px;height:2px;background:var(--accent);border-radius:5px}
+  .iphone-tabs button:active{transform:scale(.97)}
+  .board,.academy-board{touch-action:none}
+  .board-actions button,.academy-board-actions button{min-height:46px}
+  .side-picker button,.mode-tabs button{min-height:38px}
+  .modal{z-index:70;padding:12px 12px max(12px,env(safe-area-inset-bottom,0px))}
+  .modal-card{max-height:90svh;border-radius:18px}
+  .iphone-install-banner{position:fixed;left:14px;right:14px;bottom:calc(var(--ios-bottom) + 10px);padding:13px 13px 13px 16px;display:flex;gap:10px;align-items:center;background:#26362a;border:1px solid #567046;border-radius:15px;color:#e7f0dd;box-shadow:0 10px 40px #0008;z-index:54}
+  .iphone-install-banner[hidden]{display:none}
+  .iphone-install-banner .install-title{font-weight:650;font-size:12px}
+  .iphone-install-banner .install-text{font-size:10px;color:#abbda7;line-height:1.5}
+  .iphone-install-banner .install-info{flex:1;min-width:0}
+  .iphone-install-banner button{min-height:40px;border-radius:8px;font-size:11px;padding:0 10px;border:1px solid #7d9b61}
+  .iphone-install-banner .dismiss{border:0;color:#b2c1b1;padding:0;min-width:26px;font-size:21px}
+  .iphone-install-dialog{display:none;position:fixed;inset:0;z-index:90;align-items:center;justify-content:center;padding:18px;background:#020808bd;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+  .iphone-install-dialog.open{display:flex}
+  .iphone-install-dialog .panel{background:#202a2a;max-width:430px;width:100%;border:1px solid #4c5b55;border-radius:20px;padding:23px;box-shadow:0 25px 90px #0009}
+  .iphone-install-dialog h2{font-size:23px;margin:0 0 11px;font-weight:600}
+  .iphone-install-dialog p{font-size:13px;line-height:1.75;color:#b3c0bc}
+  .iphone-install-dialog .steps{background:#17211f;border-radius:11px;padding:13px 16px}
+  .iphone-install-dialog .steps p{margin:6px 0}
+  .iphone-install-dialog .install-actions{display:flex;gap:9px;margin-top:20px}
+  .iphone-install-dialog button{min-height:46px;flex:1}
+  .iphone-install-dialog .install-back{background:transparent;border:1px solid #53625b;color:#b9c8bd}
+  .academy-breadcrumb{scroll-margin-top:80px}
+  .academy-board-column{min-width:0}
+  .board-column{min-width:0}
+  .feedback{min-height:40px}
+  .toast{bottom:calc(var(--ios-bottom) + 13px);left:15px;right:15px;max-width:none;width:auto;text-align:center;transform:none}
+}
+@media(max-width:370px){
+  .header .brand{font-size:11px}
+  .header{padding-left:10px;padding-right:10px}
+  .iphone-tabs{padding-left:8px;padding-right:8px}
+  .iphone-tabs button{font-size:9px}
+  .mode-tabs button,.side-picker button{font-size:10px}
+}
+@media(min-width:921px){
+  .iphone-tabs,.iphone-install-banner,.iphone-install-dialog{display:none!important}
+}

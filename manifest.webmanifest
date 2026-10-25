@@ -1,0 +1,30 @@
+{
+  "name": "Первый ход — шахматный тренажёр",
+  "short_name": "Первый ход",
+  "description": "Дебюты, 28 уроков, 56 упражнений, ручной соперник и офлайн-анализ Stockfish.",
+  "lang": "ru",
+  "start_url": "./index.html",
+  "scope": "./",
+  "id": "./",
+  "display": "standalone",
+  "background_color": "#121619",
+  "theme_color": "#121619",
+  "categories": [
+    "education",
+    "games"
+  ],
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
