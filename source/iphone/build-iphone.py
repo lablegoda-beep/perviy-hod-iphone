@@ -13,7 +13,8 @@ html=mac.read_text()
 assert 'window.TRAINER' in html and 'const LocalEngine=' in html, 'Mac source invalid'
 html=html.replace('<meta name="viewport" content="width=device-width,initial-scale=1">',
                   '<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover>',1)
-meta='''<meta name="robots" content="noindex,nofollow">
+meta='''<meta name="firstmove-build" content="__FIRSTMOVE_BUILD__">
+<meta name="robots" content="noindex,nofollow">
 <meta name="theme-color" content="#121619">
 <meta name="application-name" content="Первый ход">
 <meta name="apple-mobile-web-app-title" content="Первый ход">
@@ -55,7 +56,7 @@ banner='''<div class="iphone-install-banner" id="iphoneInstallBanner" hidden>
 script=(src/'ios.js').read_text().replace('</script','<\\/script')
 html=html.replace('</body>',tabs+banner+'<script>'+script+'</script></body>',1)
 assert 'id="academy"' in html and 'id="iphoneInstallDialog"' in html
-(dist/'index.html').write_text(html)
+# Final HTML is written after the build fingerprint below.
 manifest={
  'name':'Первый ход — шахматный тренажёр',
  'short_name':'Первый ход',
@@ -72,6 +73,10 @@ manifest={
 for sz in [180,192,512]:
  shutil.copy2(base/'icons'/('icon-%s.png'%sz),icons/('icon-%s.png'%sz))
 sha=hashlib.sha256(html.encode()).hexdigest()[:12]
+html=html.replace('__FIRSTMOVE_BUILD__',sha)
+(dist/'index.html').write_text(html)
+report=json.loads((base.parent/'data/expanded/generation-report.json').read_text())
+(dist/'version.json').write_text(json.dumps({'version':'1.4.0','build':sha,'lines':report['total'],'added':len(report['generated']),'legacy':report['legacyLines']},ensure_ascii=False))
 (dist/'service-worker.js').write_text((src/'service-worker.template.js').read_text().replace('__BUILD_HASH__',sha))
 (dist/'.nojekyll').write_text('')
 (dist/'README.txt').write_text('Первый ход для iPhone — версия '+sha+'\nОткрой этот HTTPS-сайт в Safari, затем Поделиться → На экран Домой → Открыть как веб-приложение.\nПосле первой полной загрузки все функции доступны без интернета.\nНа телефоне прогресс хранится отдельно; перенос с Mac через Экспорт/Импорт JSON.\n')

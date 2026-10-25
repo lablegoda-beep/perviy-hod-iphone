@@ -69,7 +69,7 @@
       return;
     }
     try {
-      const registration=await navigator.serviceWorker.register("./service-worker.js",{scope:"./"});
+      const registration=await navigator.serviceWorker.register("./service-worker.js",{scope:"./",updateViaCache:"none"});
       await navigator.serviceWorker.ready;
       updateInstallStatus("Офлайн-копия установлена",true);
       if(registration.waiting && navigator.serviceWorker.controller){
@@ -104,5 +104,21 @@
     void registerOffline();
   }else updateInstallStatus("Открой по HTTPS для автономного режима.");
 
-  window.IPHONE_APP={syncNavigation,standalone,get offlineStatus(){return $("#iphonePwaStatus")?.textContent;}};
+  let availableUpdate=null;
+  async function checkUpdate(){
+    try{
+      const url=new URL('./version.json',location.href);url.searchParams.set('check',String(Date.now()));
+      const response=await fetch(url,{cache:'no-store'});if(!response.ok)throw new Error('HTTP '+response.status);
+      const info=await response.json();if(typeof info.build!=='string'||typeof info.version!=='string')throw new Error('Invalid release metadata');
+      const current=document.querySelector('meta[name="firstmove-build"]')?.content;
+      if(current===info.build){toast('Установлена актуальная база '+info.version+'.');return;}
+      availableUpdate=info;
+      openModal('Доступно обновление '+info.version,'<p>Новая база: '+Number(info.lines||0)+' веток. Сохранённый прогресс и собственные линии останутся на устройстве. Текущая незавершённая позиция начнётся заново.</p><div class="modal-actions"><button class="primary" data-action="apply-app-update">Обновить приложение</button><button class="secondary" data-action="close">Позже</button></div>');
+    }catch(e){toast('Не удалось проверить обновление. Подключись к интернету; текущая версия и прогресс сохранены.');}
+  }
+  async function applyUpdate(){
+    try{const r=await navigator.serviceWorker?.getRegistration();if(r){await r.update();r.waiting?.postMessage({type:'SKIP_WAITING'});}}catch{}
+    const url=new URL(location.href);url.searchParams.set('v',availableUpdate?.build||String(Date.now()));location.replace(url.href);
+  }
+  window.IPHONE_APP={syncNavigation,standalone,openInstall,checkUpdate,applyUpdate,get offlineStatus(){return $("#iphonePwaStatus")?.textContent;}};
 })();

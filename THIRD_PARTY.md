@@ -43,3 +43,9 @@ Playwright is used only by the local verification scripts. It is not loaded by t
 The 28 lessons in `src/lessons.cjs`, their Russian explanations and constructed exercise positions were created for this application. No external course diagrams or exercise collections are reproduced. Each lesson includes supplementary primary-platform links to the relevant Chess.com educational glossary/articles or Lichess learning and practice pages; the complete URL map is in `sources` within `src/lessons.cjs`.
 
 During development, 13 sparse-position outcome checks were queried against the Lichess tablebase service at `https://tablebase.lichess.ovh/standard`; the queried FENs and returned outcomes are recorded in `tests/academy-tablebase-report.json`. These were generated teaching positions, not private user games. The app never calls the service while a user studies.
+
+## Repertoire expansion 1.4
+
+The 61 historical teaching lines are unchanged. New course branches combine editorial seed positions with limited local Stockfish principal variations; the UI labels the engine-derived continuation and does not claim unique optimality. All paths are validated with chess.js.
+
+Opening name reference: lichess-org/chess-openings, CC0, commit a6189a30dc273ccb21fc2536a9a2fefd5592a67a. Snapshot and generation metadata are retained in data/expanded. This reference contains names and move sequences, not game-frequency statistics.

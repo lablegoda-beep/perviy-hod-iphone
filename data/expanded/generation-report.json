@@ -1,0 +1,3922 @@
+{
+  "createdAt": "2026-10-25T20:05:29.885Z",
+  "referenceCommit": "a6189a30dc273ccb21fc2536a9a2fefd5592a67a",
+  "engine": "Stockfish.js 19.0.1 Lite Single",
+  "referenceLicense": "CC0",
+  "legacyLines": 61,
+  "generated": [
+    {
+      "course": "italian",
+      "id": "italian-x-eddb2232a2a8",
+      "name": "Продолжение: Спокойная система",
+      "group": "deeper",
+      "seedPlies": 16,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Italian Game: Classical Variation, Giuoco Pianissimo"
+    },
+    {
+      "course": "italian",
+      "id": "italian-x-d5868c73fde8",
+      "name": "Продолжение: Удар в центре",
+      "group": "deeper",
+      "seedPlies": 16,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Italian Game: Classical Variation, Greco Gambit, Traditional Line"
+    },
+    {
+      "course": "italian",
+      "id": "italian-x-70042d289f4d",
+      "name": "Продолжение: Защита двух коней",
+      "group": "deeper",
+      "seedPlies": 18,
+      "plies": 26,
+      "side": "wb",
+      "referenceName": "Italian Game: Two Knights Defense, Polerio Defense, Suhle Defense"
+    },
+    {
+      "course": "italian",
+      "id": "italian-x-41fd896d6c42",
+      "name": "Продолжение: Гамбит Эванса",
+      "group": "deeper",
+      "seedPlies": 16,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Italian Game: Evans Gambit, Pierce Defense"
+    },
+    {
+      "course": "italian",
+      "id": "italian-x-4a6a28411ec4",
+      "name": "Два коня: спокойное 4.d3",
+      "group": "extended",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Italian Game: Two Knights Defense, Modern Bishop's Opening"
+    },
+    {
+      "course": "italian",
+      "id": "italian-x-f38c7a3000b2",
+      "name": "Два коня: раннее …h6",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Italian Game: Two Knights Defense, Modern Bishop's Opening"
+    },
+    {
+      "course": "italian",
+      "id": "italian-x-dcc904818af8",
+      "name": "Два коня: контрудар …Nxe4",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Italian Game: Two Knights Defense"
+    },
+    {
+      "course": "italian",
+      "id": "italian-x-9b6dbac58720",
+      "name": "Венгерская защита …Be7",
+      "group": "extended",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Italian Game: Hungarian Defense"
+    },
+    {
+      "course": "italian",
+      "id": "italian-x-431840027aac",
+      "name": "Раннее …d6 вместо …Bc5",
+      "group": "extended",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Italian Game: Paris Defense"
+    },
+    {
+      "course": "italian",
+      "id": "italian-x-3a0ef5d7f661",
+      "name": "Пианиссимо: конь на c3",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Italian Game: Giuoco Pianissimo, Italian Four Knights Variation"
+    },
+    {
+      "course": "italian",
+      "id": "italian-x-fa6de3a6b84a",
+      "name": "Пианиссимо: ранняя рокировка",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Italian Game: Giuoco Piano"
+    },
+    {
+      "course": "italian",
+      "id": "italian-x-d240a46b147d",
+      "name": "Пианиссимо: …a6 и отход Ba2",
+      "group": "extended",
+      "seedPlies": 13,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Italian Game: Classical Variation, Giuoco Pianissimo"
+    },
+    {
+      "course": "italian",
+      "id": "italian-x-c125f30792a3",
+      "name": "Центральное d4: ответ …exd4",
+      "group": "extended",
+      "seedPlies": 13,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Italian Game: Giuoco Piano, Greco's Attack"
+    },
+    {
+      "course": "italian",
+      "id": "italian-x-beb4541d3ed4",
+      "name": "Центральное d4: раннее …d6",
+      "group": "extended",
+      "seedPlies": 12,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Italian Game: Classical Variation, La Bourdonnais Variation"
+    },
+    {
+      "course": "italian",
+      "id": "italian-x-a65e7115da84",
+      "name": "Эванс: отказ …Bb6",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Italian Game: Evans Gambit Declined"
+    },
+    {
+      "course": "italian",
+      "id": "italian-x-75878a1f8361",
+      "name": "Эванс: отход …Be7",
+      "group": "extended",
+      "seedPlies": 11,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Italian Game: Evans Gambit, Anderssen Variation"
+    },
+    {
+      "course": "italian",
+      "id": "italian-x-95418a4f2d79",
+      "name": "Эванс: отход …Bc5",
+      "group": "extended",
+      "seedPlies": 12,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Italian Game: Evans Gambit, McDonnell Defense"
+    },
+    {
+      "course": "italian",
+      "id": "italian-x-bff4fc74b46a",
+      "name": "Два коня: вариант Фрица …Nd4",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Italian Game: Two Knights Defense, Fritz Variation"
+    },
+    {
+      "course": "italian",
+      "id": "italian-x-54dde87c0cde",
+      "name": "Два коня: вариант Ульвестада …b5",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Italian Game: Two Knights Defense, Ulvestad Variation"
+    },
+    {
+      "course": "italian",
+      "id": "italian-x-46fac304b91f",
+      "name": "Ранний ответ: сицилианская …c5",
+      "group": "early",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Sicilian Defense: Open"
+    },
+    {
+      "course": "italian",
+      "id": "italian-x-484202afc24f",
+      "name": "Ранний ответ: французская …e6",
+      "group": "early",
+      "seedPlies": 6,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "French Defense: Classical Variation"
+    },
+    {
+      "course": "italian",
+      "id": "italian-x-cdb14acf825b",
+      "name": "Ранний ответ: Каро–Канн …c6",
+      "group": "early",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Caro-Kann Defense"
+    },
+    {
+      "course": "italian",
+      "id": "italian-x-c643a1c3348b",
+      "name": "Ранний ответ: скандинавская …d5",
+      "group": "early",
+      "seedPlies": 6,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Scandinavian Defense: Main Line"
+    },
+    {
+      "course": "italian",
+      "id": "italian-x-40788a101da7",
+      "name": "Ранний ответ: Алехин …Nf6",
+      "group": "early",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Alekhine Defense: Modern Variation"
+    },
+    {
+      "course": "italian",
+      "id": "italian-x-0837829feac4",
+      "name": "Ранний ответ: …d6 и …g6",
+      "group": "early",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Pirc Defense: Classical Variation"
+    },
+    {
+      "course": "italian",
+      "id": "italian-x-e03073bb8dcf",
+      "name": "Ранний ответ: современная …g6",
+      "group": "early",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Modern Defense: Two Knights Variation"
+    },
+    {
+      "course": "italian",
+      "id": "italian-x-7145cfc88ee4",
+      "name": "Ранний ответ: Филидор …d6",
+      "group": "early",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Philidor Defense: Nimzowitsch Variation"
+    },
+    {
+      "course": "italian",
+      "id": "italian-x-500779a63592",
+      "name": "Ранний ответ: русская …Nf6",
+      "group": "early",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Petrov's Defense"
+    },
+    {
+      "course": "italian",
+      "id": "italian-x-905e4e806148",
+      "name": "Необычный ответ: ранний ферзь …Qh4",
+      "group": "early",
+      "seedPlies": 4,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "King's Knight Opening"
+    },
+    {
+      "course": "italian",
+      "id": "italian-x-804665ef3db0",
+      "name": "Необычный ответ: защита …f6",
+      "group": "early",
+      "seedPlies": 4,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "King's Pawn Game: Damiano Defense"
+    },
+    {
+      "course": "italian",
+      "id": "italian-x-e122cf34f6d4",
+      "name": "Необычный ответ: латышское …f5",
+      "group": "early",
+      "seedPlies": 4,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Latvian Gambit"
+    },
+    {
+      "course": "spanish",
+      "id": "spanish-x-b26bd63cf169",
+      "name": "Продолжение: Закрытый вариант",
+      "group": "deeper",
+      "seedPlies": 17,
+      "plies": 25,
+      "side": "wb",
+      "referenceName": "Ruy Lopez: Closed"
+    },
+    {
+      "course": "spanish",
+      "id": "spanish-x-ab9edfe48b0f",
+      "name": "Продолжение: Разменный вариант",
+      "group": "deeper",
+      "seedPlies": 14,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Ruy Lopez: Exchange Variation, Gligoric Variation"
+    },
+    {
+      "course": "spanish",
+      "id": "spanish-x-9457bc9839eb",
+      "name": "Продолжение: Берлинская защита",
+      "group": "deeper",
+      "seedPlies": 16,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Ruy Lopez: Berlin Defense, l'Hermet Variation, Berlin Wall Defense"
+    },
+    {
+      "course": "spanish",
+      "id": "spanish-x-dd4e00a21f04",
+      "name": "Продолжение: Открытый вариант",
+      "group": "deeper",
+      "seedPlies": 16,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Ruy Lopez: Open, Main Line"
+    },
+    {
+      "course": "spanish",
+      "id": "spanish-x-556cf2a9ebb6",
+      "name": "Антиберлин: 4.d3",
+      "group": "extended",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Ruy Lopez: Berlin Defense, Anti-Berlin Variation"
+    },
+    {
+      "course": "spanish",
+      "id": "spanish-x-f5f6ee517c07",
+      "name": "Берлин: закрытое …d6",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Ruy Lopez: Berlin Defense, Improved Steinitz Defense"
+    },
+    {
+      "course": "spanish",
+      "id": "spanish-x-b6e0e0c0763f",
+      "name": "Защита Штейница …d6",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Ruy Lopez: Steinitz Defense"
+    },
+    {
+      "course": "spanish",
+      "id": "spanish-x-77ea2c8c2788",
+      "name": "Защита Шлимана …f5",
+      "group": "extended",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Ruy Lopez: Schliemann Defense"
+    },
+    {
+      "course": "spanish",
+      "id": "spanish-x-2184b60e8596",
+      "name": "Вариант Бёрда …Nd4",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Ruy Lopez: Bird Variation"
+    },
+    {
+      "course": "spanish",
+      "id": "spanish-x-4ac7f73ac11a",
+      "name": "Защита Коцио …Nge7",
+      "group": "extended",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Ruy Lopez: Cozio Defense"
+    },
+    {
+      "course": "spanish",
+      "id": "spanish-x-7e1d632af2d2",
+      "name": "Фианкетто …g6",
+      "group": "extended",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Ruy Lopez: Fianchetto Defense"
+    },
+    {
+      "course": "spanish",
+      "id": "spanish-x-f316507a2686",
+      "name": "Классическая защита …Bc5",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Ruy Lopez: Classical Variation, Central Variation"
+    },
+    {
+      "course": "spanish",
+      "id": "spanish-x-e3c91f570b17",
+      "name": "Отложенная защита Штейница",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Ruy Lopez: Morphy Defense, Modern Steinitz Defense"
+    },
+    {
+      "course": "spanish",
+      "id": "spanish-x-e9c55368c8d1",
+      "name": "Разменная: чёрные играют …Qd6",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Ruy Lopez: Exchange Variation, Bronstein Variation"
+    },
+    {
+      "course": "spanish",
+      "id": "spanish-x-1c25784c6437",
+      "name": "Разменная: центральное d4",
+      "group": "extended",
+      "seedPlies": 13,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Ruy Lopez: Exchange Variation"
+    },
+    {
+      "course": "spanish",
+      "id": "spanish-x-e867db30061e",
+      "name": "Закрытая: система с d3",
+      "group": "extended",
+      "seedPlies": 11,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Ruy Lopez: Closed, Martinez Variation"
+    },
+    {
+      "course": "spanish",
+      "id": "spanish-x-116103359695",
+      "name": "Закрытая: вариант Чигорина",
+      "group": "extended",
+      "seedPlies": 22,
+      "plies": 28,
+      "side": "wb",
+      "referenceName": "Ruy Lopez: Closed, Chigorin Defense"
+    },
+    {
+      "course": "spanish",
+      "id": "spanish-x-01a0ee01e5a0",
+      "name": "Закрытая: вариант Брейера",
+      "group": "extended",
+      "seedPlies": 18,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Ruy Lopez: Closed, Breyer Defense"
+    },
+    {
+      "course": "spanish",
+      "id": "spanish-x-b3dde2d16488",
+      "name": "Анти-Маршалл: 8.a4",
+      "group": "extended",
+      "seedPlies": 15,
+      "plies": 21,
+      "side": "wb",
+      "referenceName": "Ruy Lopez: Closed, Anti-Marshall"
+    },
+    {
+      "course": "spanish",
+      "id": "spanish-x-960bd6d574c9",
+      "name": "Атака Маршалла: принять вызов",
+      "group": "extended",
+      "seedPlies": 22,
+      "plies": 28,
+      "side": "wb",
+      "referenceName": "Ruy Lopez: Marshall Attack, Modern Variation"
+    },
+    {
+      "course": "spanish",
+      "id": "spanish-x-46fac304b91f",
+      "name": "Ранний ответ: сицилианская …c5",
+      "group": "early",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Sicilian Defense: Open"
+    },
+    {
+      "course": "spanish",
+      "id": "spanish-x-484202afc24f",
+      "name": "Ранний ответ: французская …e6",
+      "group": "early",
+      "seedPlies": 6,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "French Defense: Classical Variation"
+    },
+    {
+      "course": "spanish",
+      "id": "spanish-x-cdb14acf825b",
+      "name": "Ранний ответ: Каро–Канн …c6",
+      "group": "early",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Caro-Kann Defense"
+    },
+    {
+      "course": "spanish",
+      "id": "spanish-x-c643a1c3348b",
+      "name": "Ранний ответ: скандинавская …d5",
+      "group": "early",
+      "seedPlies": 6,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Scandinavian Defense: Main Line"
+    },
+    {
+      "course": "spanish",
+      "id": "spanish-x-40788a101da7",
+      "name": "Ранний ответ: Алехин …Nf6",
+      "group": "early",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Alekhine Defense: Modern Variation"
+    },
+    {
+      "course": "spanish",
+      "id": "spanish-x-0837829feac4",
+      "name": "Ранний ответ: …d6 и …g6",
+      "group": "early",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Pirc Defense: Classical Variation"
+    },
+    {
+      "course": "spanish",
+      "id": "spanish-x-e03073bb8dcf",
+      "name": "Ранний ответ: современная …g6",
+      "group": "early",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Modern Defense: Two Knights Variation"
+    },
+    {
+      "course": "spanish",
+      "id": "spanish-x-7145cfc88ee4",
+      "name": "Ранний ответ: Филидор …d6",
+      "group": "early",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Philidor Defense: Nimzowitsch Variation"
+    },
+    {
+      "course": "spanish",
+      "id": "spanish-x-500779a63592",
+      "name": "Ранний ответ: русская …Nf6",
+      "group": "early",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Petrov's Defense"
+    },
+    {
+      "course": "spanish",
+      "id": "spanish-x-905e4e806148",
+      "name": "Необычный ответ: ранний ферзь …Qh4",
+      "group": "early",
+      "seedPlies": 4,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "King's Knight Opening"
+    },
+    {
+      "course": "spanish",
+      "id": "spanish-x-804665ef3db0",
+      "name": "Необычный ответ: защита …f6",
+      "group": "early",
+      "seedPlies": 4,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "King's Pawn Game: Damiano Defense"
+    },
+    {
+      "course": "spanish",
+      "id": "spanish-x-e122cf34f6d4",
+      "name": "Необычный ответ: латышское …f5",
+      "group": "early",
+      "seedPlies": 4,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Latvian Gambit"
+    },
+    {
+      "course": "scotch",
+      "id": "scotch-x-d6e443bae1fb",
+      "name": "Продолжение: Классическое развитие",
+      "group": "deeper",
+      "seedPlies": 14,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Scotch Game: Classical Variation"
+    },
+    {
+      "course": "scotch",
+      "id": "scotch-x-d4a863d2272e",
+      "name": "Продолжение: Вариант Мизеса",
+      "group": "deeper",
+      "seedPlies": 16,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Scotch Game: Mieses Variation"
+    },
+    {
+      "course": "scotch",
+      "id": "scotch-x-cfc1a0a744ef",
+      "name": "Продолжение: Шотландский гамбит",
+      "group": "deeper",
+      "seedPlies": 16,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Scotch Game: Haxo Gambit"
+    },
+    {
+      "course": "scotch",
+      "id": "scotch-x-b6c94afe6626",
+      "name": "Чёрные сразу меняют коней",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Scotch Game"
+    },
+    {
+      "course": "scotch",
+      "id": "scotch-x-9f2d87e1cfce",
+      "name": "Шах …Bb4+",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Scotch Game: Malaniuk Variation"
+    },
+    {
+      "course": "scotch",
+      "id": "scotch-x-c1edd4489049",
+      "name": "Ранний ферзь …Qh4",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Scotch Game: Steinitz Variation"
+    },
+    {
+      "course": "scotch",
+      "id": "scotch-x-95f548357ee3",
+      "name": "Классическая: 5.Nxc6",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Scotch Game: Classical Variation, Intermezzo Variation"
+    },
+    {
+      "course": "scotch",
+      "id": "scotch-x-007dcb60ca44",
+      "name": "Классическая: ферзь на d2",
+      "group": "extended",
+      "seedPlies": 13,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Scotch Game: Classical Variation, Blackburne Attack"
+    },
+    {
+      "course": "scotch",
+      "id": "scotch-x-2d45cef318eb",
+      "name": "Классическая: конь на b5",
+      "group": "extended",
+      "seedPlies": 11,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Scotch Game: Blumenfeld Attack"
+    },
+    {
+      "course": "scotch",
+      "id": "scotch-x-554c9dae6c1a",
+      "name": "Против …Nf6: развитие Nc3",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Scotch Game: Schmidt Variation"
+    },
+    {
+      "course": "scotch",
+      "id": "scotch-x-cd1194e5c88c",
+      "name": "Мизес: чёрные берут d-пешкой",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Scotch Game: Schmidt Variation"
+    },
+    {
+      "course": "scotch",
+      "id": "scotch-x-7601f82f2af2",
+      "name": "Мизес: 6.Bd3 вместо e5",
+      "group": "extended",
+      "seedPlies": 11,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Scotch Game: Schmidt Variation"
+    },
+    {
+      "course": "scotch",
+      "id": "scotch-x-d23a9954864a",
+      "name": "Шотландский гамбит: …Bb4+",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Scotch Game: Scotch Gambit, London Defense"
+    },
+    {
+      "course": "scotch",
+      "id": "scotch-x-5e0d336dfcd3",
+      "name": "Гамбит Гёринга: принятие",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Scotch Game: Göring Gambit"
+    },
+    {
+      "course": "scotch",
+      "id": "scotch-x-fba3eb8001a8",
+      "name": "Гамбит Гёринга: отказ …d5",
+      "group": "extended",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Scotch Game: Scotch Gambit, Göring Gambit Declined"
+    },
+    {
+      "course": "scotch",
+      "id": "scotch-x-95a91b85a363",
+      "name": "Шотландский гамбит: …Nf6",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Scotch Game: Scotch Gambit, Advance Variation"
+    },
+    {
+      "course": "scotch",
+      "id": "scotch-x-46fac304b91f",
+      "name": "Ранний ответ: сицилианская …c5",
+      "group": "early",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Sicilian Defense: Open"
+    },
+    {
+      "course": "scotch",
+      "id": "scotch-x-484202afc24f",
+      "name": "Ранний ответ: французская …e6",
+      "group": "early",
+      "seedPlies": 6,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "French Defense: Classical Variation"
+    },
+    {
+      "course": "scotch",
+      "id": "scotch-x-cdb14acf825b",
+      "name": "Ранний ответ: Каро–Канн …c6",
+      "group": "early",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Caro-Kann Defense"
+    },
+    {
+      "course": "scotch",
+      "id": "scotch-x-c643a1c3348b",
+      "name": "Ранний ответ: скандинавская …d5",
+      "group": "early",
+      "seedPlies": 6,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Scandinavian Defense: Main Line"
+    },
+    {
+      "course": "scotch",
+      "id": "scotch-x-40788a101da7",
+      "name": "Ранний ответ: Алехин …Nf6",
+      "group": "early",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Alekhine Defense: Modern Variation"
+    },
+    {
+      "course": "scotch",
+      "id": "scotch-x-0837829feac4",
+      "name": "Ранний ответ: …d6 и …g6",
+      "group": "early",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Pirc Defense: Classical Variation"
+    },
+    {
+      "course": "scotch",
+      "id": "scotch-x-e03073bb8dcf",
+      "name": "Ранний ответ: современная …g6",
+      "group": "early",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Modern Defense: Two Knights Variation"
+    },
+    {
+      "course": "scotch",
+      "id": "scotch-x-7145cfc88ee4",
+      "name": "Ранний ответ: Филидор …d6",
+      "group": "early",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Philidor Defense: Nimzowitsch Variation"
+    },
+    {
+      "course": "scotch",
+      "id": "scotch-x-500779a63592",
+      "name": "Ранний ответ: русская …Nf6",
+      "group": "early",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Petrov's Defense"
+    },
+    {
+      "course": "scotch",
+      "id": "scotch-x-905e4e806148",
+      "name": "Необычный ответ: ранний ферзь …Qh4",
+      "group": "early",
+      "seedPlies": 4,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "King's Knight Opening"
+    },
+    {
+      "course": "scotch",
+      "id": "scotch-x-804665ef3db0",
+      "name": "Необычный ответ: защита …f6",
+      "group": "early",
+      "seedPlies": 4,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "King's Pawn Game: Damiano Defense"
+    },
+    {
+      "course": "scotch",
+      "id": "scotch-x-e122cf34f6d4",
+      "name": "Необычный ответ: латышское …f5",
+      "group": "early",
+      "seedPlies": 4,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Latvian Gambit"
+    },
+    {
+      "course": "london",
+      "id": "london-x-c5d76a5ec6c0",
+      "name": "Продолжение: Классическая расстановка",
+      "group": "deeper",
+      "seedPlies": 15,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Queen's Pawn Game: London System"
+    },
+    {
+      "course": "london",
+      "id": "london-x-fd2242e4bd7c",
+      "name": "Продолжение: Раннее …c5",
+      "group": "deeper",
+      "seedPlies": 14,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Queen's Pawn Game: Accelerated London System, Steinitz Countergambit"
+    },
+    {
+      "course": "london",
+      "id": "london-x-e839a6024e25",
+      "name": "Продолжение: Против фианкетто",
+      "group": "deeper",
+      "seedPlies": 13,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "London System"
+    },
+    {
+      "course": "london",
+      "id": "london-x-81d91ea11fc0",
+      "name": "Симметрия: …Bf5",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Queen's Pawn Game: London System"
+    },
+    {
+      "course": "london",
+      "id": "london-x-886a84ed9c9e",
+      "name": "Раннее …Bg4",
+      "group": "extended",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Queen's Pawn Game: London System"
+    },
+    {
+      "course": "london",
+      "id": "london-x-a7792b264c61",
+      "name": "Против …Qb6: защита Qb3",
+      "group": "extended",
+      "seedPlies": 11,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Queen's Pawn Game: London System"
+    },
+    {
+      "course": "london",
+      "id": "london-x-033944ee1e04",
+      "name": "Против …Qb6: активное Nc3",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "London System: Poisoned Pawn Variation"
+    },
+    {
+      "course": "london",
+      "id": "london-x-69db04cf58c0",
+      "name": "Быстрый размен на d4",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Queen's Pawn Game: Accelerated London System, Steinitz Countergambit"
+    },
+    {
+      "course": "london",
+      "id": "london-x-e5aa84e499e1",
+      "name": "Раннее …Bd6 и размен слонов",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Queen's Pawn Game: London System"
+    },
+    {
+      "course": "london",
+      "id": "london-x-02bd8590ab5f",
+      "name": "Сохранить слона: Bg3",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Queen's Pawn Game: London System"
+    },
+    {
+      "course": "london",
+      "id": "london-x-22852c25ce54",
+      "name": "Против …Nh5",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Queen's Pawn Game: London System"
+    },
+    {
+      "course": "london",
+      "id": "london-x-85bc77e6318a",
+      "name": "Против раннего …c5 без …d5",
+      "group": "extended",
+      "seedPlies": 5,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Indian Defense: Accelerated London System"
+    },
+    {
+      "course": "london",
+      "id": "london-x-d76e85cc7fd4",
+      "name": "Против староиндийского …e5",
+      "group": "extended",
+      "seedPlies": 14,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "London System"
+    },
+    {
+      "course": "london",
+      "id": "london-x-ed9c141bf4f5",
+      "name": "Против голландского …f5",
+      "group": "extended",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Dutch Defense"
+    },
+    {
+      "course": "london",
+      "id": "london-x-130ef2156664",
+      "name": "Против раннего …g6",
+      "group": "extended",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Queen's Pawn Game: Modern Defense"
+    },
+    {
+      "course": "london",
+      "id": "london-x-8d1ebf46086f",
+      "name": "Система Джобава: Nc3 и Bf4",
+      "group": "extended",
+      "seedPlies": 6,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Rapport-Jobava System"
+    },
+    {
+      "course": "london",
+      "id": "london-x-bf62e3f846b7",
+      "name": "Джобава: раннее …Bf5",
+      "group": "extended",
+      "seedPlies": 6,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Rapport-Jobava System"
+    },
+    {
+      "course": "queens",
+      "id": "queens-x-7d3775e35ec9",
+      "name": "Продолжение: Отказанный гамбит",
+      "group": "deeper",
+      "seedPlies": 14,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Queen's Gambit Declined"
+    },
+    {
+      "course": "queens",
+      "id": "queens-x-8cdc7b6acd2e",
+      "name": "Продолжение: Принятый гамбит",
+      "group": "deeper",
+      "seedPlies": 12,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Queen's Gambit Accepted: Classical Defense, Main Line"
+    },
+    {
+      "course": "queens",
+      "id": "queens-x-74a613454762",
+      "name": "Продолжение: Карлсбадская структура",
+      "group": "deeper",
+      "seedPlies": 15,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Queen's Gambit Declined: Normal Defense"
+    },
+    {
+      "course": "queens",
+      "id": "queens-x-53082d684f27",
+      "name": "Продолжение: Защита Тарраша",
+      "group": "deeper",
+      "seedPlies": 14,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Tarrasch Defense: Prague Variation, Main Line"
+    },
+    {
+      "course": "queens",
+      "id": "queens-x-ea40a24fb77c",
+      "name": "Принятый: центр 3.e4",
+      "group": "extended",
+      "seedPlies": 6,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Queen's Gambit Accepted: Central Variation, McDonnell Defense"
+    },
+    {
+      "course": "queens",
+      "id": "queens-x-6ecd6b78353f",
+      "name": "Принятый: 3.e3 и …e5",
+      "group": "extended",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Queen's Gambit Accepted: Old Variation"
+    },
+    {
+      "course": "queens",
+      "id": "queens-x-720ca49440fc",
+      "name": "Принятый: попытка удержать …b5",
+      "group": "extended",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Queen's Gambit Accepted: Old Variation"
+    },
+    {
+      "course": "queens",
+      "id": "queens-x-ae20596f87dc",
+      "name": "Отказанный: ортодоксальная система",
+      "group": "extended",
+      "seedPlies": 13,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Queen's Gambit Declined"
+    },
+    {
+      "course": "queens",
+      "id": "queens-x-11c801cc244e",
+      "name": "Отказанный: система Тартаковера",
+      "group": "extended",
+      "seedPlies": 14,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Queen's Gambit Declined"
+    },
+    {
+      "course": "queens",
+      "id": "queens-x-19a0312bb185",
+      "name": "Отказанный: защита Ласкера",
+      "group": "extended",
+      "seedPlies": 14,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Queen's Gambit Declined"
+    },
+    {
+      "course": "queens",
+      "id": "queens-x-adb691b2fc1b",
+      "name": "Кембридж-Спрингс: …Qa5",
+      "group": "extended",
+      "seedPlies": 12,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Queen's Gambit Declined: Modern Variation, Knight Defense"
+    },
+    {
+      "course": "queens",
+      "id": "queens-x-0bde9cf5471d",
+      "name": "Защита Чигорина …Nc6",
+      "group": "extended",
+      "seedPlies": 6,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Queen's Gambit Declined: Chigorin Defense, Main Line"
+    },
+    {
+      "course": "queens",
+      "id": "queens-x-ac5d9a4601a9",
+      "name": "Контргамбит Альбина …e5",
+      "group": "extended",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Queen's Gambit Declined: Albin Countergambit, Normal Line"
+    },
+    {
+      "course": "queens",
+      "id": "queens-x-41f31ac937a5",
+      "name": "Балтийская защита …Bf5",
+      "group": "extended",
+      "seedPlies": 5,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Queen's Gambit Declined: Baltic Defense"
+    },
+    {
+      "course": "queens",
+      "id": "queens-x-e07f65210b6c",
+      "name": "Переход в славянскую",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Slav Defense: Alapin Variation"
+    },
+    {
+      "course": "queens",
+      "id": "queens-x-cd50020fabb8",
+      "name": "Полуславянская с …e6",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Semi-Slav Defense"
+    },
+    {
+      "course": "queens",
+      "id": "queens-x-1ef4ec3fe010",
+      "name": "Полу-Тарраш: взятие конём",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Queen's Gambit Declined: Normal Defense"
+    },
+    {
+      "course": "queens",
+      "id": "queens-x-c3e5acbca971",
+      "name": "Разменный: конь на f3",
+      "group": "extended",
+      "seedPlies": 13,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Queen's Gambit Declined: Normal Defense"
+    },
+    {
+      "course": "vienna",
+      "id": "vienna-x-4d0fb231ebbe",
+      "name": "Продолжение: Венский гамбит",
+      "group": "deeper",
+      "seedPlies": 14,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Vienna Game: Vienna Gambit, Breyer Variation"
+    },
+    {
+      "course": "vienna",
+      "id": "vienna-x-832e8c208cb7",
+      "name": "Продолжение: Слон на c4",
+      "group": "deeper",
+      "seedPlies": 12,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Vienna Game: Stanley Variation"
+    },
+    {
+      "course": "vienna",
+      "id": "vienna-x-c41d5a2e28d7",
+      "name": "Продолжение: Система с g3",
+      "group": "deeper",
+      "seedPlies": 12,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Vienna Game: Paulsen Variation"
+    },
+    {
+      "course": "vienna",
+      "id": "vienna-x-bc7fcd972203",
+      "name": "Венский гамбит: чёрные берут f4",
+      "group": "extended",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Vienna Game: Vienna Gambit"
+    },
+    {
+      "course": "vienna",
+      "id": "vienna-x-e715426d3d78",
+      "name": "Венский гамбит: отступление …Ng8",
+      "group": "extended",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Vienna Game: Vienna Gambit"
+    },
+    {
+      "course": "vienna",
+      "id": "vienna-x-39222553d0e2",
+      "name": "Венский гамбит: спокойное …d6",
+      "group": "extended",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Vienna Game: Vienna Gambit"
+    },
+    {
+      "course": "vienna",
+      "id": "vienna-x-c60b378bb665",
+      "name": "Контрудар …d5: ответ Nf3",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Vienna Game: Vienna Gambit, Main Line"
+    },
+    {
+      "course": "vienna",
+      "id": "vienna-x-77bdbb67e77e",
+      "name": "Против …Nc6: f4",
+      "group": "extended",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Vienna Gambit, with Max Lange Defense: Knight Variation"
+    },
+    {
+      "course": "vienna",
+      "id": "vienna-x-4ac0fd3d754d",
+      "name": "Против …Bc5: развитие Nf3",
+      "group": "extended",
+      "seedPlies": 6,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Vienna Game: Anderssen Defense"
+    },
+    {
+      "course": "vienna",
+      "id": "vienna-x-d6fc5066f43d",
+      "name": "Слон c4: чёрные берут e4",
+      "group": "extended",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Vienna Game: Frankenstein-Dracula Variation"
+    },
+    {
+      "course": "vienna",
+      "id": "vienna-x-14631e6fb8c1",
+      "name": "Слон c4: фианкетто чёрных",
+      "group": "extended",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Vienna Game: Stanley Variation"
+    },
+    {
+      "course": "vienna",
+      "id": "vienna-x-bc18773882bf",
+      "name": "Система g3: чёрные играют …d5",
+      "group": "extended",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Vienna Game: Mieses Variation"
+    },
+    {
+      "course": "vienna",
+      "id": "vienna-x-1cdc9e504773",
+      "name": "Переход к четырём коням",
+      "group": "extended",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Vienna Game: Falkbeer Variation"
+    },
+    {
+      "course": "vienna",
+      "id": "vienna-x-46fac304b91f",
+      "name": "Ранний ответ: сицилианская …c5",
+      "group": "early",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Sicilian Defense: Open"
+    },
+    {
+      "course": "vienna",
+      "id": "vienna-x-484202afc24f",
+      "name": "Ранний ответ: французская …e6",
+      "group": "early",
+      "seedPlies": 6,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "French Defense: Classical Variation"
+    },
+    {
+      "course": "vienna",
+      "id": "vienna-x-cdb14acf825b",
+      "name": "Ранний ответ: Каро–Канн …c6",
+      "group": "early",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Caro-Kann Defense"
+    },
+    {
+      "course": "vienna",
+      "id": "vienna-x-c643a1c3348b",
+      "name": "Ранний ответ: скандинавская …d5",
+      "group": "early",
+      "seedPlies": 6,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Scandinavian Defense: Main Line"
+    },
+    {
+      "course": "vienna",
+      "id": "vienna-x-40788a101da7",
+      "name": "Ранний ответ: Алехин …Nf6",
+      "group": "early",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Alekhine Defense: Modern Variation"
+    },
+    {
+      "course": "vienna",
+      "id": "vienna-x-0837829feac4",
+      "name": "Ранний ответ: …d6 и …g6",
+      "group": "early",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Pirc Defense: Classical Variation"
+    },
+    {
+      "course": "vienna",
+      "id": "vienna-x-e03073bb8dcf",
+      "name": "Ранний ответ: современная …g6",
+      "group": "early",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Modern Defense: Two Knights Variation"
+    },
+    {
+      "course": "vienna",
+      "id": "vienna-x-7145cfc88ee4",
+      "name": "Ранний ответ: Филидор …d6",
+      "group": "early",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Philidor Defense: Nimzowitsch Variation"
+    },
+    {
+      "course": "vienna",
+      "id": "vienna-x-500779a63592",
+      "name": "Ранний ответ: русская …Nf6",
+      "group": "early",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Petrov's Defense"
+    },
+    {
+      "course": "vienna",
+      "id": "vienna-x-905e4e806148",
+      "name": "Необычный ответ: ранний ферзь …Qh4",
+      "group": "early",
+      "seedPlies": 4,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "King's Knight Opening"
+    },
+    {
+      "course": "vienna",
+      "id": "vienna-x-804665ef3db0",
+      "name": "Необычный ответ: защита …f6",
+      "group": "early",
+      "seedPlies": 4,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "King's Pawn Game: Damiano Defense"
+    },
+    {
+      "course": "vienna",
+      "id": "vienna-x-e122cf34f6d4",
+      "name": "Необычный ответ: латышское …f5",
+      "group": "early",
+      "seedPlies": 4,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Latvian Gambit"
+    },
+    {
+      "course": "kingsgambit",
+      "id": "kingsgambit-x-d0385a0bb838",
+      "name": "Продолжение: Принятый: классическая защита",
+      "group": "deeper",
+      "seedPlies": 12,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "King's Gambit Accepted: Kieseritzky Gambit, Berlin Defense"
+    },
+    {
+      "course": "kingsgambit",
+      "id": "kingsgambit-x-36492d30810d",
+      "name": "Продолжение: Защита Фишера",
+      "group": "deeper",
+      "seedPlies": 11,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "King's Gambit Accepted: Fischer Defense"
+    },
+    {
+      "course": "kingsgambit",
+      "id": "kingsgambit-x-9285c16bfb62",
+      "name": "Продолжение: Отказанный гамбит",
+      "group": "deeper",
+      "seedPlies": 11,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "King's Gambit Declined: Classical Variation"
+    },
+    {
+      "course": "kingsgambit",
+      "id": "kingsgambit-x-7ba6852cb389",
+      "name": "Контргамбит Фалькбеера",
+      "group": "extended",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "King's Gambit Declined: Falkbeer Countergambit, Charousek Gambit"
+    },
+    {
+      "course": "kingsgambit",
+      "id": "kingsgambit-x-5655389e2c75",
+      "name": "Современная защита …d5",
+      "group": "extended",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "King's Gambit Accepted: Abbazia Defense"
+    },
+    {
+      "course": "kingsgambit",
+      "id": "kingsgambit-x-66155e2dd19b",
+      "name": "Защита Каннингема …Be7",
+      "group": "extended",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "King's Gambit Accepted: Cunningham Defense, McCormick Defense"
+    },
+    {
+      "course": "kingsgambit",
+      "id": "kingsgambit-x-025a2a8ac91d",
+      "name": "Каннингем: немедленный шах …Bh4+",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "King's Gambit Accepted: Cunningham Defense"
+    },
+    {
+      "course": "kingsgambit",
+      "id": "kingsgambit-x-eed369e90431",
+      "name": "Защита Шаллоппа …Nf6",
+      "group": "extended",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "King's Gambit Accepted: Schallopp Defense"
+    },
+    {
+      "course": "kingsgambit",
+      "id": "kingsgambit-x-6529015b945d",
+      "name": "Фишер: 4.Bc4",
+      "group": "extended",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "King's Gambit Accepted: Fischer Defense"
+    },
+    {
+      "course": "kingsgambit",
+      "id": "kingsgambit-x-817c0fc94f0f",
+      "name": "Классическая: вариант Кизерицкого",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "King's Gambit Accepted: Kieseritzky Gambit, Kolisch Defense"
+    },
+    {
+      "course": "kingsgambit",
+      "id": "kingsgambit-x-d7b3d7671969",
+      "name": "Классическая: гамбит Альгайера",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "b",
+      "referenceName": "King's Gambit Accepted: Allgaier Gambit"
+    },
+    {
+      "course": "kingsgambit",
+      "id": "kingsgambit-x-4d9777c6865b",
+      "name": "Слоновый гамбит и шах ферзём",
+      "group": "extended",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "King's Gambit Accepted: Bishop's Gambit"
+    },
+    {
+      "course": "kingsgambit",
+      "id": "kingsgambit-x-726a620fe3f1",
+      "name": "Отказ …Bc5: ход c3",
+      "group": "extended",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "King's Gambit Declined: Classical Variation"
+    },
+    {
+      "course": "kingsgambit",
+      "id": "kingsgambit-x-9903ba85d2e0",
+      "name": "Отказ …Nf6",
+      "group": "extended",
+      "seedPlies": 5,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "King's Gambit Declined: Petrov's Defense"
+    },
+    {
+      "course": "kingsgambit",
+      "id": "kingsgambit-x-62849d5230e8",
+      "name": "Отказ …Nc6",
+      "group": "extended",
+      "seedPlies": 5,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "King's Gambit Declined: Queen's Knight Defense"
+    },
+    {
+      "course": "kingsgambit",
+      "id": "kingsgambit-x-46fac304b91f",
+      "name": "Ранний ответ: сицилианская …c5",
+      "group": "early",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Sicilian Defense: Open"
+    },
+    {
+      "course": "kingsgambit",
+      "id": "kingsgambit-x-484202afc24f",
+      "name": "Ранний ответ: французская …e6",
+      "group": "early",
+      "seedPlies": 6,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "French Defense: Classical Variation"
+    },
+    {
+      "course": "kingsgambit",
+      "id": "kingsgambit-x-cdb14acf825b",
+      "name": "Ранний ответ: Каро–Канн …c6",
+      "group": "early",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Caro-Kann Defense"
+    },
+    {
+      "course": "kingsgambit",
+      "id": "kingsgambit-x-c643a1c3348b",
+      "name": "Ранний ответ: скандинавская …d5",
+      "group": "early",
+      "seedPlies": 6,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Scandinavian Defense: Main Line"
+    },
+    {
+      "course": "kingsgambit",
+      "id": "kingsgambit-x-40788a101da7",
+      "name": "Ранний ответ: Алехин …Nf6",
+      "group": "early",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Alekhine Defense: Modern Variation"
+    },
+    {
+      "course": "kingsgambit",
+      "id": "kingsgambit-x-0837829feac4",
+      "name": "Ранний ответ: …d6 и …g6",
+      "group": "early",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Pirc Defense: Classical Variation"
+    },
+    {
+      "course": "kingsgambit",
+      "id": "kingsgambit-x-e03073bb8dcf",
+      "name": "Ранний ответ: современная …g6",
+      "group": "early",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Modern Defense: Two Knights Variation"
+    },
+    {
+      "course": "kingsgambit",
+      "id": "kingsgambit-x-7145cfc88ee4",
+      "name": "Ранний ответ: Филидор …d6",
+      "group": "early",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Philidor Defense: Nimzowitsch Variation"
+    },
+    {
+      "course": "kingsgambit",
+      "id": "kingsgambit-x-500779a63592",
+      "name": "Ранний ответ: русская …Nf6",
+      "group": "early",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Petrov's Defense"
+    },
+    {
+      "course": "kingsgambit",
+      "id": "kingsgambit-x-905e4e806148",
+      "name": "Необычный ответ: ранний ферзь …Qh4",
+      "group": "early",
+      "seedPlies": 4,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "King's Knight Opening"
+    },
+    {
+      "course": "kingsgambit",
+      "id": "kingsgambit-x-804665ef3db0",
+      "name": "Необычный ответ: защита …f6",
+      "group": "early",
+      "seedPlies": 4,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "King's Pawn Game: Damiano Defense"
+    },
+    {
+      "course": "kingsgambit",
+      "id": "kingsgambit-x-e122cf34f6d4",
+      "name": "Необычный ответ: латышское …f5",
+      "group": "early",
+      "seedPlies": 4,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Latvian Gambit"
+    },
+    {
+      "course": "english",
+      "id": "english-x-34bec8e83d34",
+      "name": "Продолжение: Симметричный вариант",
+      "group": "deeper",
+      "seedPlies": 15,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "English Opening: Symmetrical Variation, Three Knights, Fianchetto Variation"
+    },
+    {
+      "course": "english",
+      "id": "english-x-ccd17348eefc",
+      "name": "Продолжение: Сицилианская с переменой цвета",
+      "group": "deeper",
+      "seedPlies": 14,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "English Opening: King's English Variation, Two Knights Variation, Reversed Dragon"
+    },
+    {
+      "course": "english",
+      "id": "english-x-ff0cc8bdff8c",
+      "name": "Продолжение: Четыре коня",
+      "group": "deeper",
+      "seedPlies": 14,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "English Opening: King's English Variation, Four Knights Variation, Fianchetto Line"
+    },
+    {
+      "course": "english",
+      "id": "english-x-5f176469df38",
+      "name": "Симметрия: раннее …d5",
+      "group": "extended",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "English Opening: Symmetrical Variation"
+    },
+    {
+      "course": "english",
+      "id": "english-x-dd75deca6bbc",
+      "name": "Симметрия: пешки d3 и e4",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "English Opening: Symmetrical Variation, Two Knights, Fianchetto Variation"
+    },
+    {
+      "course": "english",
+      "id": "english-x-2006209f308a",
+      "name": "Симметрия: …e5",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "English Opening: Symmetrical Variation, Botvinnik System Reversed, with Nf3"
+    },
+    {
+      "course": "english",
+      "id": "english-x-f8b7e557fafd",
+      "name": "Против …e5: закрытая система",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "English Opening: King's English Variation, Closed System"
+    },
+    {
+      "course": "english",
+      "id": "english-x-e9f18aa9680f",
+      "name": "Против …e5: ранний слон …Bb4",
+      "group": "extended",
+      "seedPlies": 6,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "English Opening: King's English Variation, Two Knights Variation, Smyslov System"
+    },
+    {
+      "course": "english",
+      "id": "english-x-7deb3d576863",
+      "name": "Четыре коня: 4.e3",
+      "group": "extended",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "English Opening: King's English Variation, Four Knights Variation, Quiet Line"
+    },
+    {
+      "course": "english",
+      "id": "english-x-8f76460df4ea",
+      "name": "Против …e6: каталонская расстановка",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "English Opening: Agincourt Defense, Neo-Catalan Declined"
+    },
+    {
+      "course": "english",
+      "id": "english-x-7b9da776c03e",
+      "name": "Против …Nf6: …d5",
+      "group": "extended",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "English Opening: Anglo-Grünfeld Defense"
+    },
+    {
+      "course": "english",
+      "id": "english-x-5dc67f7d27f0",
+      "name": "Против …g6: белые занимают e4",
+      "group": "extended",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "English Opening: Great Snake Variation"
+    },
+    {
+      "course": "english",
+      "id": "english-x-c93d744ffc49",
+      "name": "Против …c6: переход в славянскую",
+      "group": "extended",
+      "seedPlies": 6,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "English Opening: Caro-Kann Defensive System"
+    },
+    {
+      "course": "english",
+      "id": "english-x-793d9380fa76",
+      "name": "Против голландского …f5",
+      "group": "extended",
+      "seedPlies": 5,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "English Opening: Anglo-Dutch Defense"
+    },
+    {
+      "course": "english",
+      "id": "english-x-9e0d276f2bbd",
+      "name": "Против раннего …d5",
+      "group": "extended",
+      "seedPlies": 5,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "English Opening: Anglo-Scandinavian Defense"
+    },
+    {
+      "course": "sicilian",
+      "id": "sicilian-x-49707e2cdd35",
+      "name": "Продолжение: Найдорф",
+      "group": "deeper",
+      "seedPlies": 18,
+      "plies": 26,
+      "side": "wb",
+      "referenceName": "Sicilian Defense: Najdorf Variation, English Attack"
+    },
+    {
+      "course": "sicilian",
+      "id": "sicilian-x-d3a82e8a13df",
+      "name": "Продолжение: Дракон: югославская атака",
+      "group": "deeper",
+      "seedPlies": 19,
+      "plies": 27,
+      "side": "wb",
+      "referenceName": "Sicilian Defense: Dragon Variation, Yugoslav Attack"
+    },
+    {
+      "course": "sicilian",
+      "id": "sicilian-x-c414eb402ec4",
+      "name": "Продолжение: Свешников",
+      "group": "deeper",
+      "seedPlies": 16,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Sicilian Defense: Lasker-Pelikan Variation, Sveshnikov Variation"
+    },
+    {
+      "course": "sicilian",
+      "id": "sicilian-x-d14ab78c137e",
+      "name": "Продолжение: Вариант Алапина",
+      "group": "deeper",
+      "seedPlies": 13,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Sicilian Defense: Alapin Variation, Barmen Defense"
+    },
+    {
+      "course": "sicilian",
+      "id": "sicilian-x-c777c4de7a0d",
+      "name": "Продолжение: Закрытая система",
+      "group": "deeper",
+      "seedPlies": 14,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Sicilian Defense: Closed"
+    },
+    {
+      "course": "sicilian",
+      "id": "sicilian-x-eac1efbb59c3",
+      "name": "Россолимо: …g6",
+      "group": "extended",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation"
+    },
+    {
+      "course": "sicilian",
+      "id": "sicilian-x-3b9ad7ff643e",
+      "name": "Россолимо: …e6",
+      "group": "extended",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack"
+    },
+    {
+      "course": "sicilian",
+      "id": "sicilian-x-278a8cdbf892",
+      "name": "Московский вариант: …Bd7",
+      "group": "extended",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Sicilian Defense: Moscow Variation, Main Line"
+    },
+    {
+      "course": "sicilian",
+      "id": "sicilian-x-208e436809af",
+      "name": "Московский вариант: …Nd7",
+      "group": "extended",
+      "seedPlies": 6,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Sicilian Defense: Moscow Variation"
+    },
+    {
+      "course": "sicilian",
+      "id": "sicilian-x-07d0ea372129",
+      "name": "Алапин: контратака …Nf6",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Sicilian Defense: Alapin Variation, Smith-Morra Declined"
+    },
+    {
+      "course": "sicilian",
+      "id": "sicilian-x-65d6f892bd7e",
+      "name": "Алапин: ферзь меняется в центре",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Sicilian Defense: Alapin Variation, Barmen Defense"
+    },
+    {
+      "course": "sicilian",
+      "id": "sicilian-x-54bf6d1c7dd1",
+      "name": "Гамбит Морра принят",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Sicilian Defense: Smith-Morra Gambit Accepted"
+    },
+    {
+      "course": "sicilian",
+      "id": "sicilian-x-a35ced02b75e",
+      "name": "Гамбит Морра отклонён",
+      "group": "extended",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Sicilian Defense: Smith-Morra Gambit Declined, Alapin Formation"
+    },
+    {
+      "course": "sicilian",
+      "id": "sicilian-x-6e95b38c2870",
+      "name": "Гран-при: слон на c4",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Sicilian Defense: Grand Prix Attack"
+    },
+    {
+      "course": "sicilian",
+      "id": "sicilian-x-31964d8e5531",
+      "name": "Гран-при: слон на b5",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Sicilian Defense: Grand Prix Attack"
+    },
+    {
+      "course": "sicilian",
+      "id": "sicilian-x-6a6c04929cc0",
+      "name": "Ранний слон 2.Bc4",
+      "group": "extended",
+      "seedPlies": 6,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Sicilian Defense: Bowdler Attack"
+    },
+    {
+      "course": "sicilian",
+      "id": "sicilian-x-5dab6a949f6b",
+      "name": "Закрытая: спокойное Be3",
+      "group": "extended",
+      "seedPlies": 11,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Sicilian Defense: Closed"
+    },
+    {
+      "course": "sicilian",
+      "id": "sicilian-x-4b5060d56adb",
+      "name": "Ускоренный дракон",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Sicilian Defense: Accelerated Dragon, Modern Variation"
+    },
+    {
+      "course": "sicilian",
+      "id": "sicilian-x-e06701021000",
+      "name": "Ускоренный дракон: зажим Мароци",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Sicilian Defense: Accelerated Dragon, Maróczy Bind"
+    },
+    {
+      "course": "sicilian",
+      "id": "sicilian-x-67d4aaaac89e",
+      "name": "Тайманов: …Qc7",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+    },
+    {
+      "course": "sicilian",
+      "id": "sicilian-x-82c065d458d3",
+      "name": "Кан: раннее …a6",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Sicilian Defense: Kan Variation, Modern Variation"
+    },
+    {
+      "course": "sicilian",
+      "id": "sicilian-x-560d0c1a3b68",
+      "name": "Шевенинген: спокойное Be2",
+      "group": "extended",
+      "seedPlies": 11,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Sicilian Defense: Modern Variations, Main Line"
+    },
+    {
+      "course": "sicilian",
+      "id": "sicilian-x-b6634f8dc385",
+      "name": "Шевенинген: атака Кереса",
+      "group": "extended",
+      "seedPlies": 11,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Sicilian Defense: Modern Variations, Main Line"
+    },
+    {
+      "course": "sicilian",
+      "id": "sicilian-x-96fc678b131f",
+      "name": "Найдорф: 6.Bg5",
+      "group": "extended",
+      "seedPlies": 13,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Sicilian Defense: Najdorf Variation"
+    },
+    {
+      "course": "sicilian",
+      "id": "sicilian-x-aa88442251c9",
+      "name": "Найдорф: 6.Be2",
+      "group": "extended",
+      "seedPlies": 13,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Sicilian Defense: Najdorf Variation, Opocensky Variation"
+    },
+    {
+      "course": "sicilian",
+      "id": "sicilian-x-3abc6d539bcc",
+      "name": "Найдорф: 6.Bc4",
+      "group": "extended",
+      "seedPlies": 12,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Sicilian Defense: Najdorf Variation, Lipnitsky Attack"
+    },
+    {
+      "course": "sicilian",
+      "id": "sicilian-x-48d6c32e8e6a",
+      "name": "Дракон: классическая система",
+      "group": "extended",
+      "seedPlies": 13,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Sicilian Defense: Dragon Variation, Classical Variation"
+    },
+    {
+      "course": "sicilian",
+      "id": "sicilian-x-27308c7bbda8",
+      "name": "Калашников: раннее …e5",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Sicilian Defense: Kalashnikov Variation"
+    },
+    {
+      "course": "sicilian",
+      "id": "sicilian-x-1e7f67f120a0",
+      "name": "О'Келли: 2…a6",
+      "group": "extended",
+      "seedPlies": 5,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Sicilian Defense: O'Kelly Variation, Venice System"
+    },
+    {
+      "course": "sicilian",
+      "id": "sicilian-x-f2d3f05ceb1a",
+      "name": "Необычное 2.Qh5",
+      "group": "early",
+      "seedPlies": 3,
+      "plies": 20,
+      "side": "b",
+      "referenceName": "Sicilian Defense"
+    },
+    {
+      "course": "sicilian",
+      "id": "sicilian-x-1f2e274b2ac9",
+      "name": "Раннее 2.b3",
+      "group": "early",
+      "seedPlies": 3,
+      "plies": 20,
+      "side": "b",
+      "referenceName": "Sicilian Defense: Czerniak Attack"
+    },
+    {
+      "course": "sicilian",
+      "id": "sicilian-x-9fe1b181f3f1",
+      "name": "Раннее 2.g3",
+      "group": "early",
+      "seedPlies": 3,
+      "plies": 20,
+      "side": "b",
+      "referenceName": "Sicilian Defense: Lasker-Dunne Attack"
+    },
+    {
+      "course": "sicilian",
+      "id": "sicilian-x-d97a337551fa",
+      "name": "Фланговый гамбит 2.b4",
+      "group": "early",
+      "seedPlies": 3,
+      "plies": 20,
+      "side": "b",
+      "referenceName": "Sicilian Defense: Wing Gambit"
+    },
+    {
+      "course": "caro",
+      "id": "caro-x-8913bf66ee49",
+      "name": "Продолжение: Классический вариант",
+      "group": "deeper",
+      "seedPlies": 16,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Caro-Kann Defense"
+    },
+    {
+      "course": "caro",
+      "id": "caro-x-2fcd21c7a74c",
+      "name": "Продолжение: Вариант продвижения",
+      "group": "deeper",
+      "seedPlies": 12,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Caro-Kann Defense: Advance Variation, Short Variation"
+    },
+    {
+      "course": "caro",
+      "id": "caro-x-53812125042c",
+      "name": "Продолжение: Разменный вариант",
+      "group": "deeper",
+      "seedPlies": 13,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Caro-Kann Defense: Exchange Variation, Rubinstein Variation"
+    },
+    {
+      "course": "caro",
+      "id": "caro-x-13fbf56c21ba",
+      "name": "Продолжение: Атака Панова",
+      "group": "deeper",
+      "seedPlies": 14,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Caro-Kann Defense: Panov Attack, Main Line"
+    },
+    {
+      "course": "caro",
+      "id": "caro-x-cfb4f7b20a05",
+      "name": "Продвижение: раннее …c5",
+      "group": "extended",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Caro-Kann Defense: Advance Variation, Botvinnik-Carls Defense"
+    },
+    {
+      "course": "caro",
+      "id": "caro-x-070a7b529c4f",
+      "name": "Продвижение: система Шорта",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Caro-Kann Defense: Advance Variation, Short Variation"
+    },
+    {
+      "course": "caro",
+      "id": "caro-x-b77cd0ab4ced",
+      "name": "Продвижение: 4.Nc3 и g4",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Caro-Kann Defense: Advance Variation, Van der Wiel Attack"
+    },
+    {
+      "course": "caro",
+      "id": "caro-x-9e3c9f0e9ce1",
+      "name": "Продвижение: 4.h4",
+      "group": "extended",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Caro-Kann Defense: Advance Variation, Tal Variation"
+    },
+    {
+      "course": "caro",
+      "id": "caro-x-fb623a65048f",
+      "name": "Продвижение: раннее c4",
+      "group": "extended",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Caro-Kann Defense: Advance Variation"
+    },
+    {
+      "course": "caro",
+      "id": "caro-x-63fe42d6079f",
+      "name": "Тартаковер: …Nf6 и …exf6",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Caro-Kann Defense: Tartakower Variation"
+    },
+    {
+      "course": "caro",
+      "id": "caro-x-c63fd39b0600",
+      "name": "Бронштейн—Ларсен: …gxf6",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Caro-Kann Defense: Bronstein-Larsen Variation"
+    },
+    {
+      "course": "caro",
+      "id": "caro-x-92d16f3e23b3",
+      "name": "Система Карпова …Nd7",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Caro-Kann Defense: Karpov Variation"
+    },
+    {
+      "course": "caro",
+      "id": "caro-x-71aa31e2950a",
+      "name": "Два коня: …Bg4",
+      "group": "extended",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Caro-Kann Defense: Two Knights Attack, Mindeno Variation, Exchange Line"
+    },
+    {
+      "course": "caro",
+      "id": "caro-x-ac4ec68c5ec0",
+      "name": "Два коня: взятие e4",
+      "group": "extended",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Caro-Kann Defense: Two Knights Attack"
+    },
+    {
+      "course": "caro",
+      "id": "caro-x-5063d00d4e5b",
+      "name": "Фантазийный вариант 3.f3",
+      "group": "extended",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Caro-Kann Defense: Maróczy Variation"
+    },
+    {
+      "course": "caro",
+      "id": "caro-x-71a94c1446c7",
+      "name": "Панов: фианкетто чёрных",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Caro-Kann Defense: Panov Attack, Fianchetto Defense"
+    },
+    {
+      "course": "caro",
+      "id": "caro-x-e277e28ae5de",
+      "name": "Панов: …Nc6 вместо …e6",
+      "group": "extended",
+      "seedPlies": 12,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Caro-Kann Defense: Panov Attack, Modern Defense, Mieses Line"
+    },
+    {
+      "course": "caro",
+      "id": "caro-x-7db66b3a52a3",
+      "name": "Ускоренный Панов 2.c4",
+      "group": "extended",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Caro-Kann Defense: Accelerated Panov Attack, Modern Variation"
+    },
+    {
+      "course": "caro",
+      "id": "caro-x-3d8039a2bcdb",
+      "name": "Разменный: ранний …Bg4",
+      "group": "extended",
+      "seedPlies": 12,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Caro-Kann Defense: Exchange Variation"
+    },
+    {
+      "course": "caro",
+      "id": "caro-x-5da29ea3560f",
+      "name": "Раннее 2.Bc4",
+      "group": "early",
+      "seedPlies": 3,
+      "plies": 20,
+      "side": "b",
+      "referenceName": "Caro-Kann Defense: Hillbilly Attack"
+    },
+    {
+      "course": "caro",
+      "id": "caro-x-8f9b68002543",
+      "name": "Раннее 2.Qh5",
+      "group": "early",
+      "seedPlies": 3,
+      "plies": 20,
+      "side": "b",
+      "referenceName": "Caro-Kann Defense"
+    },
+    {
+      "course": "caro",
+      "id": "caro-x-8992ae7843a4",
+      "name": "Сдержанное 2.d3",
+      "group": "early",
+      "seedPlies": 3,
+      "plies": 20,
+      "side": "b",
+      "referenceName": "Caro-Kann Defense: Breyer Variation"
+    },
+    {
+      "course": "french",
+      "id": "french-x-d91fa770893b",
+      "name": "Продолжение: Вариант продвижения",
+      "group": "deeper",
+      "seedPlies": 13,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "French Defense: Advance Variation, Main Line"
+    },
+    {
+      "course": "french",
+      "id": "french-x-ec7517baf5bb",
+      "name": "Продолжение: Система Тарраша",
+      "group": "deeper",
+      "seedPlies": 14,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "French Defense: Tarrasch Variation, Open System, Main Line"
+    },
+    {
+      "course": "french",
+      "id": "french-x-5dcce93a2f95",
+      "name": "Продолжение: Вариант Винавера",
+      "group": "deeper",
+      "seedPlies": 13,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "French Defense: Winawer Variation, Positional Variation"
+    },
+    {
+      "course": "french",
+      "id": "french-x-95eec633514f",
+      "name": "Продолжение: Разменный вариант",
+      "group": "deeper",
+      "seedPlies": 13,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "French Defense: Exchange Variation"
+    },
+    {
+      "course": "french",
+      "id": "french-x-a58920e679c9",
+      "name": "Продвижение: 6.Be2",
+      "group": "extended",
+      "seedPlies": 11,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "French Defense: Advance Variation, Paulsen Attack"
+    },
+    {
+      "course": "french",
+      "id": "french-x-5c0c379f4ad2",
+      "name": "Продвижение: раннее …Bd7",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "French Defense: Advance Variation, Euwe Variation"
+    },
+    {
+      "course": "french",
+      "id": "french-x-3890c99d7e99",
+      "name": "Гамбит Милнера—Барри",
+      "group": "extended",
+      "seedPlies": 13,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "French Defense: Advance Variation, Milner-Barry Gambit"
+    },
+    {
+      "course": "french",
+      "id": "french-x-edb4d0e491d2",
+      "name": "Тарраш: ответ …Nf6",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "French Defense: Tarrasch Variation, Closed Variation"
+    },
+    {
+      "course": "french",
+      "id": "french-x-976ff00f2e97",
+      "name": "Тарраш: ответ …c5 и …Qxd5",
+      "group": "extended",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "French Defense: Tarrasch Variation, Chistyakov Defense"
+    },
+    {
+      "course": "french",
+      "id": "french-x-8f6b498855c4",
+      "name": "Рубинштейн: размен e4",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "French Defense: Rubinstein Variation, Blackburne Defense"
+    },
+    {
+      "course": "french",
+      "id": "french-x-10faa24af303",
+      "name": "Классическая: вариант Бёрна",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "French Defense: Classical Variation"
+    },
+    {
+      "course": "french",
+      "id": "french-x-570052098943",
+      "name": "Классическая: 4.e5",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "French Defense: Classical Variation, Steinitz Variation"
+    },
+    {
+      "course": "french",
+      "id": "french-x-b8d47586ba12",
+      "name": "Вариант Мак-Кэтчона",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "French Defense: McCutcheon Variation, Advance Variation"
+    },
+    {
+      "course": "french",
+      "id": "french-x-31ebe2555e03",
+      "name": "Винавер: ферзь на g4",
+      "group": "extended",
+      "seedPlies": 13,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "French Defense: Winawer Variation, Advance Variation"
+    },
+    {
+      "course": "french",
+      "id": "french-x-e708a95d63a0",
+      "name": "Винавер: раннее …c5 и 4.exd5",
+      "group": "extended",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "French Defense: Winawer Variation, Delayed Exchange Variation"
+    },
+    {
+      "course": "french",
+      "id": "french-x-658aa4f5ff2c",
+      "name": "Винавер: 4.Ne2",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "French Defense: Winawer Variation, Alekhine-Maróczy Gambit"
+    },
+    {
+      "course": "french",
+      "id": "french-x-bbc8dbd3981b",
+      "name": "Разменная: белые играют c4",
+      "group": "extended",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "French Defense: Exchange Variation, Monte Carlo Variation"
+    },
+    {
+      "course": "french",
+      "id": "french-x-6849546a1956",
+      "name": "Разменная: длинная рокировка возможна",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "French Defense: Exchange Variation"
+    },
+    {
+      "course": "french",
+      "id": "french-x-2a2dbc43ec35",
+      "name": "Староиндийская атака против французской",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "French Defense: King's Indian Attack"
+    },
+    {
+      "course": "french",
+      "id": "french-x-8a50574a46e3",
+      "name": "Раннее 2.Bc4",
+      "group": "early",
+      "seedPlies": 3,
+      "plies": 20,
+      "side": "b",
+      "referenceName": "French Defense"
+    },
+    {
+      "course": "french",
+      "id": "french-x-d4c54439c495",
+      "name": "Раннее 2.Qh5",
+      "group": "early",
+      "seedPlies": 3,
+      "plies": 20,
+      "side": "b",
+      "referenceName": "French Defense"
+    },
+    {
+      "course": "french",
+      "id": "french-x-8d21f8eeaf3a",
+      "name": "Белые выбирают 2.Nf3",
+      "group": "early",
+      "seedPlies": 3,
+      "plies": 20,
+      "side": "b",
+      "referenceName": "French Defense: Knight Variation"
+    },
+    {
+      "course": "scandi",
+      "id": "scandi-x-2db5b4a0e453",
+      "name": "Продолжение: Ферзь на a5",
+      "group": "deeper",
+      "seedPlies": 14,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Scandinavian Defense: Main Line, Mieses Variation"
+    },
+    {
+      "course": "scandi",
+      "id": "scandi-x-c150287c03a3",
+      "name": "Продолжение: Ферзь на d6",
+      "group": "deeper",
+      "seedPlies": 14,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Scandinavian Defense: Bronstein Variation"
+    },
+    {
+      "course": "scandi",
+      "id": "scandi-x-2e02b7b82e97",
+      "name": "Продолжение: Возвращение на d8",
+      "group": "deeper",
+      "seedPlies": 14,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Scandinavian Defense: Valencian Variation, Ilundain Variation"
+    },
+    {
+      "course": "scandi",
+      "id": "scandi-x-5b7a81eed1aa",
+      "name": "Современная: 2…Nf6",
+      "group": "extended",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Scandinavian Defense: Marshall Variation"
+    },
+    {
+      "course": "scandi",
+      "id": "scandi-x-231723b1b07b",
+      "name": "Современная: белые держат пешку c4",
+      "group": "extended",
+      "seedPlies": 6,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Scandinavian Defense: Panov Transfer"
+    },
+    {
+      "course": "scandi",
+      "id": "scandi-x-56548b9e6b92",
+      "name": "Португальский вариант …Bg4",
+      "group": "extended",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Scandinavian Defense: Portuguese Gambit, Classical Variation"
+    },
+    {
+      "course": "scandi",
+      "id": "scandi-x-6913d4ab056e",
+      "name": "Португальский: белые играют f3",
+      "group": "extended",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Scandinavian Defense: Portuguese Gambit"
+    },
+    {
+      "course": "scandi",
+      "id": "scandi-x-1463d61b0bdf",
+      "name": "Ферзь a5: связка …Bg4",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Scandinavian Defense: Main Line, Mieses Variation"
+    },
+    {
+      "course": "scandi",
+      "id": "scandi-x-47d0a9d9b388",
+      "name": "Ферзь a5: …Bf5 без …c6",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Scandinavian Defense: Classical Variation"
+    },
+    {
+      "course": "scandi",
+      "id": "scandi-x-5c23682697a2",
+      "name": "Ферзь a5: белые атакуют Bd2",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Scandinavian Defense: Main Line, Mieses Variation"
+    },
+    {
+      "course": "scandi",
+      "id": "scandi-x-96c8d13e8dae",
+      "name": "Ферзь d6: белые играют Bc4",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Scandinavian Defense: Gubinsky-Melts Defense"
+    },
+    {
+      "course": "scandi",
+      "id": "scandi-x-6c7cf9aa4c5d",
+      "name": "Ферзь d8: связка …Bg4",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Scandinavian Defense: Valencian Variation, Main Line"
+    },
+    {
+      "course": "scandi",
+      "id": "scandi-x-cd46425fd1c6",
+      "name": "Белые не берут: 2.e5",
+      "group": "extended",
+      "seedPlies": 6,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Scandinavian Defense"
+    },
+    {
+      "course": "scandi",
+      "id": "scandi-x-efadd4676608",
+      "name": "Белые не берут: 2.Nc3",
+      "group": "extended",
+      "seedPlies": 6,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Scandinavian Defense"
+    },
+    {
+      "course": "scandi",
+      "id": "scandi-x-78fcdcf2841b",
+      "name": "Белые развиваются 3.Nf3",
+      "group": "extended",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Scandinavian Defense: Mieses-Kotroc Variation"
+    },
+    {
+      "course": "scandi",
+      "id": "scandi-x-aff213665c60",
+      "name": "Белые предлагают гамбит 2.d4",
+      "group": "early",
+      "seedPlies": 3,
+      "plies": 20,
+      "side": "b",
+      "referenceName": "Scandinavian Defense"
+    },
+    {
+      "course": "scandi",
+      "id": "scandi-x-386dcc8e17dd",
+      "name": "Белые защищают e4 ходом d3",
+      "group": "early",
+      "seedPlies": 3,
+      "plies": 20,
+      "side": "b",
+      "referenceName": "Scandinavian Defense"
+    },
+    {
+      "course": "pirc",
+      "id": "pirc-x-3a4c488db897",
+      "name": "Продолжение: Австрийская атака",
+      "group": "deeper",
+      "seedPlies": 14,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Pirc Defense: Austrian Attack, Weiss Variation"
+    },
+    {
+      "course": "pirc",
+      "id": "pirc-x-4081d44d17ac",
+      "name": "Продолжение: Классическая система",
+      "group": "deeper",
+      "seedPlies": 13,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Pirc Defense: Classical Variation, Quiet System, Czech Defense"
+    },
+    {
+      "course": "pirc",
+      "id": "pirc-x-16b43fe92be7",
+      "name": "Продолжение: Система с Be3 и Qd2",
+      "group": "deeper",
+      "seedPlies": 13,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Pirc Defense"
+    },
+    {
+      "course": "pirc",
+      "id": "pirc-x-e09c8da70865",
+      "name": "Австрийская: контрудар …c5",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Pirc Defense: Austrian Attack, Dragon Formation"
+    },
+    {
+      "course": "pirc",
+      "id": "pirc-x-6d19919a99e6",
+      "name": "Австрийская: раннее e5",
+      "group": "extended",
+      "seedPlies": 11,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Pirc Defense: Austrian Attack, Unzicker Attack"
+    },
+    {
+      "course": "pirc",
+      "id": "pirc-x-db15ace39da3",
+      "name": "Классическая: …Nc6",
+      "group": "extended",
+      "seedPlies": 12,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Pirc Defense: Classical Variation, Quiet System, Chigorin Line"
+    },
+    {
+      "course": "pirc",
+      "id": "pirc-x-ddf7b63634d9",
+      "name": "Классическая: …e5",
+      "group": "extended",
+      "seedPlies": 12,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Pirc Defense: Classical Variation, Quiet System"
+    },
+    {
+      "course": "pirc",
+      "id": "pirc-x-6c156680299a",
+      "name": "Атака 150: Be3 и Qd2",
+      "group": "extended",
+      "seedPlies": 11,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Pirc Defense"
+    },
+    {
+      "course": "pirc",
+      "id": "pirc-x-249bc197c8db",
+      "name": "Атака 150: …c6 и …b5",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Pirc Defense: 150 Attack"
+    },
+    {
+      "course": "pirc",
+      "id": "pirc-x-b266b6a359de",
+      "name": "Система с Bg5",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Pirc Defense: Byrne Variation"
+    },
+    {
+      "course": "pirc",
+      "id": "pirc-x-bac058a6c811",
+      "name": "Система с Bc4",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Pirc Defense: Kholmov System"
+    },
+    {
+      "course": "pirc",
+      "id": "pirc-x-442e233cdb3e",
+      "name": "Ранний штыковой h4",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Pirc Defense: Bayonet Attack"
+    },
+    {
+      "course": "pirc",
+      "id": "pirc-x-835009e6c102",
+      "name": "Белые выбирают 3.f3",
+      "group": "extended",
+      "seedPlies": 5,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Lion Defense: Lion's Jaw"
+    },
+    {
+      "course": "pirc",
+      "id": "pirc-x-697f0ecee679",
+      "name": "Белые не строят d4: Nf3",
+      "group": "early",
+      "seedPlies": 3,
+      "plies": 20,
+      "side": "b",
+      "referenceName": "Pirc Defense"
+    },
+    {
+      "course": "pirc",
+      "id": "pirc-x-39e174f8d805",
+      "name": "Белые рано выводят ферзя",
+      "group": "early",
+      "seedPlies": 3,
+      "plies": 20,
+      "side": "b",
+      "referenceName": "Pirc Defense"
+    },
+    {
+      "course": "kingsindian",
+      "id": "kingsindian-x-443f9d24d0ed",
+      "name": "Продолжение: Классическая система",
+      "group": "deeper",
+      "seedPlies": 16,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+    },
+    {
+      "course": "kingsindian",
+      "id": "kingsindian-x-346eaeaa0e4c",
+      "name": "Продолжение: Система Земиша",
+      "group": "deeper",
+      "seedPlies": 15,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "King's Indian Defense: Sämisch Variation, Closed Variation"
+    },
+    {
+      "course": "kingsindian",
+      "id": "kingsindian-x-7192473ff682",
+      "name": "Продолжение: Фианкетто белых",
+      "group": "deeper",
+      "seedPlies": 14,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "King's Indian Defense: Fianchetto Variation, Classical Fianchetto"
+    },
+    {
+      "course": "kingsindian",
+      "id": "kingsindian-x-a06d71ff3bd3",
+      "name": "Классическая: разменный центр",
+      "group": "extended",
+      "seedPlies": 14,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "King's Indian Defense: Exchange Variation"
+    },
+    {
+      "course": "kingsindian",
+      "id": "kingsindian-x-43cf3110948b",
+      "name": "Классическая: система Петросяна",
+      "group": "extended",
+      "seedPlies": 13,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "King's Indian Defense: Petrosian Variation"
+    },
+    {
+      "course": "kingsindian",
+      "id": "kingsindian-x-95a85e00b8d6",
+      "name": "Классическая: конь на a6",
+      "group": "extended",
+      "seedPlies": 12,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "King's Indian Defense: Kazakh Variation"
+    },
+    {
+      "course": "kingsindian",
+      "id": "kingsindian-x-c53b2b6b0ef0",
+      "name": "Классическая: конь на d7",
+      "group": "extended",
+      "seedPlies": 12,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "King's Indian Defense: Orthodox Variation"
+    },
+    {
+      "course": "kingsindian",
+      "id": "kingsindian-x-0855a0a0f3c9",
+      "name": "Земиш: система Панно",
+      "group": "extended",
+      "seedPlies": 14,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "King's Indian Defense: Sämisch Variation, Panno Formation"
+    },
+    {
+      "course": "kingsindian",
+      "id": "kingsindian-x-9199b0cddd48",
+      "name": "Земиш: немедленное …c5",
+      "group": "extended",
+      "seedPlies": 12,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "King's Indian Defense: Sämisch Variation, Sämisch Gambit"
+    },
+    {
+      "course": "kingsindian",
+      "id": "kingsindian-x-acdaf6aefb30",
+      "name": "Система Авербаха",
+      "group": "extended",
+      "seedPlies": 11,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "King's Indian Defense: Averbakh Variation"
+    },
+    {
+      "course": "kingsindian",
+      "id": "kingsindian-x-f886d8d80457",
+      "name": "Четыре пешки",
+      "group": "extended",
+      "seedPlies": 12,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "King's Indian Defense: Four Pawns Attack"
+    },
+    {
+      "course": "kingsindian",
+      "id": "kingsindian-x-55644fe9d792",
+      "name": "Система Макогонова h3",
+      "group": "extended",
+      "seedPlies": 11,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "King's Indian Defense: Karpov System"
+    },
+    {
+      "course": "kingsindian",
+      "id": "kingsindian-x-d1ce05ea0f77",
+      "name": "Фианкетто: контрудар …c5",
+      "group": "extended",
+      "seedPlies": 12,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "King's Indian Defense: Fianchetto Variation"
+    },
+    {
+      "course": "kingsindian",
+      "id": "kingsindian-x-b82b2cfcd293",
+      "name": "Фианкетто: развитие …Nc6",
+      "group": "extended",
+      "seedPlies": 12,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "King's Indian Defense: Fianchetto Variation"
+    },
+    {
+      "course": "kingsindian",
+      "id": "kingsindian-x-8104e2913622",
+      "name": "Белые не строят e4: e3",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "King's Indian Defense"
+    },
+    {
+      "course": "kingsindian",
+      "id": "kingsindian-x-3cff77a47acd",
+      "name": "Лондон вместо c4",
+      "group": "early",
+      "seedPlies": 6,
+      "plies": 20,
+      "side": "b",
+      "referenceName": "Indian Defense: Accelerated London System"
+    },
+    {
+      "course": "kingsindian",
+      "id": "kingsindian-x-33e5d2a0fc26",
+      "name": "Тромповский: слон g5",
+      "group": "early",
+      "seedPlies": 3,
+      "plies": 20,
+      "side": "b",
+      "referenceName": "Trompowsky Attack"
+    },
+    {
+      "course": "kingsindian",
+      "id": "kingsindian-x-200859f13ffb",
+      "name": "Система без c4: 2.Nf3",
+      "group": "early",
+      "seedPlies": 5,
+      "plies": 20,
+      "side": "b",
+      "referenceName": "East Indian Defense"
+    },
+    {
+      "course": "nimzo",
+      "id": "nimzo-x-3139f14e5147",
+      "name": "Продолжение: Система Рубинштейна",
+      "group": "deeper",
+      "seedPlies": 14,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Nimzo-Indian Defense: Normal Variation, Gligoric System, Bernstein Defense"
+    },
+    {
+      "course": "nimzo",
+      "id": "nimzo-x-e31fdaa09208",
+      "name": "Продолжение: Классическая система",
+      "group": "deeper",
+      "seedPlies": 14,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Nimzo-Indian Defense: Classical Variation, Keres Defense"
+    },
+    {
+      "course": "nimzo",
+      "id": "nimzo-x-4f72753a6f1d",
+      "name": "Продолжение: Система Земиша",
+      "group": "deeper",
+      "seedPlies": 13,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Nimzo-Indian Defense: Sämisch Variation"
+    },
+    {
+      "course": "nimzo",
+      "id": "nimzo-x-f1dbf2d0ec62",
+      "name": "Классическая Qc2: …d5",
+      "group": "extended",
+      "seedPlies": 11,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Nimzo-Indian Defense: Classical Variation, Noa Variation"
+    },
+    {
+      "course": "nimzo",
+      "id": "nimzo-x-f8defdf5f4e7",
+      "name": "Классическая Qc2: …c5",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Nimzo-Indian Defense: Classical Variation, Berlin Variation"
+    },
+    {
+      "course": "nimzo",
+      "id": "nimzo-x-fc704a32ea3f",
+      "name": "Классическая Qc2: …O-O",
+      "group": "extended",
+      "seedPlies": 12,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Nimzo-Indian Defense: Classical Variation"
+    },
+    {
+      "course": "nimzo",
+      "id": "nimzo-x-e727c3632172",
+      "name": "Рубинштейн: система Хюбнера",
+      "group": "extended",
+      "seedPlies": 14,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Nimzo-Indian Defense: Rubinstein System, Hübner Variation"
+    },
+    {
+      "course": "nimzo",
+      "id": "nimzo-x-f94f9bec9c4b",
+      "name": "Рубинштейн: раннее Ne2",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Nimzo-Indian Defense: Reshevsky Variation"
+    },
+    {
+      "course": "nimzo",
+      "id": "nimzo-x-840d33400415",
+      "name": "Рубинштейн: …b6",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Nimzo-Indian Defense: Normal Variation"
+    },
+    {
+      "course": "nimzo",
+      "id": "nimzo-x-53627aef1ea8",
+      "name": "Три коня: 4.Nf3",
+      "group": "extended",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Nimzo-Indian Defense: Three Knights Variation"
+    },
+    {
+      "course": "nimzo",
+      "id": "nimzo-x-be28e098d143",
+      "name": "Ленинградская система 4.Bg5",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Nimzo-Indian Defense: Leningrad Variation"
+    },
+    {
+      "course": "nimzo",
+      "id": "nimzo-x-a5cfc4d3f484",
+      "name": "Земиш: 4.a3",
+      "group": "extended",
+      "seedPlies": 11,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Nimzo-Indian Defense: Sämisch Variation"
+    },
+    {
+      "course": "nimzo",
+      "id": "nimzo-x-56da8482d9bf",
+      "name": "Система 4.f3",
+      "group": "extended",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Nimzo-Indian Defense: Kmoch Variation"
+    },
+    {
+      "course": "nimzo",
+      "id": "nimzo-x-f157458c7db7",
+      "name": "Шпильман: ферзь b3",
+      "group": "extended",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Nimzo-Indian Defense: Spielmann Variation"
+    },
+    {
+      "course": "nimzo",
+      "id": "nimzo-x-9d7cb5be61c7",
+      "name": "Фианкетто белых 4.g3",
+      "group": "extended",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Nimzo-Indian Defense: Romanishin Variation"
+    },
+    {
+      "course": "nimzo",
+      "id": "nimzo-x-58ebc978c073",
+      "name": "Нимцович не получается: 3.Nf3",
+      "group": "early",
+      "seedPlies": 6,
+      "plies": 20,
+      "side": "b",
+      "referenceName": "Indian Defense: Anti-Nimzo-Indian"
+    },
+    {
+      "course": "nimzo",
+      "id": "nimzo-x-201db594ca0d",
+      "name": "Каталонская: 3.g3",
+      "group": "early",
+      "seedPlies": 6,
+      "plies": 20,
+      "side": "b",
+      "referenceName": "Catalan Opening"
+    },
+    {
+      "course": "nimzo",
+      "id": "nimzo-x-0a8ee63dd37f",
+      "name": "Лондон вместо c4",
+      "group": "early",
+      "seedPlies": 5,
+      "plies": 20,
+      "side": "b",
+      "referenceName": "Indian Defense: Accelerated London System"
+    },
+    {
+      "course": "slav",
+      "id": "slav-x-cccf31912606",
+      "name": "Продолжение: Основная система",
+      "group": "deeper",
+      "seedPlies": 15,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Slav Defense: Czech Variation, Dutch Variation"
+    },
+    {
+      "course": "slav",
+      "id": "slav-x-91cde2444225",
+      "name": "Продолжение: Разменный вариант",
+      "group": "deeper",
+      "seedPlies": 14,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Slav Defense: Exchange Variation, Symmetrical Line"
+    },
+    {
+      "course": "slav",
+      "id": "slav-x-ac8bef1f29f0",
+      "name": "Продолжение: Полуславянская: Меран",
+      "group": "deeper",
+      "seedPlies": 16,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Semi-Slav Defense"
+    },
+    {
+      "course": "slav",
+      "id": "slav-x-2744d54b0ed9",
+      "name": "Тихая система e3 и …Bf5",
+      "group": "extended",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Slav Defense: Quiet Variation, Schallopp Defense"
+    },
+    {
+      "course": "slav",
+      "id": "slav-x-8726aaad7471",
+      "name": "Разменная: ранний Bf4",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Slav Defense: Exchange Variation"
+    },
+    {
+      "course": "slav",
+      "id": "slav-x-5c8bd571f1c3",
+      "name": "Разменная: ферзь b3",
+      "group": "extended",
+      "seedPlies": 15,
+      "plies": 21,
+      "side": "wb",
+      "referenceName": "Slav Defense: Exchange Variation"
+    },
+    {
+      "course": "slav",
+      "id": "slav-x-aa84ad5d2bfc",
+      "name": "Чебаненко: раннее …a6",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Slav Defense: Chebanenko Variation"
+    },
+    {
+      "course": "slav",
+      "id": "slav-x-5ff81e65edf3",
+      "name": "Шлехтер: фианкетто …g6",
+      "group": "extended",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Slav Defense: Schlechter Variation"
+    },
+    {
+      "course": "slav",
+      "id": "slav-x-91bc9c372c5d",
+      "name": "После …dxc4: гамбит Геллера",
+      "group": "extended",
+      "seedPlies": 11,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Slav Defense: Geller Gambit"
+    },
+    {
+      "course": "slav",
+      "id": "slav-x-361ab20bdcf9",
+      "name": "После …dxc4: спокойное e3",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Slav Defense: Alekhine Variation"
+    },
+    {
+      "course": "slav",
+      "id": "slav-x-1c3c43c4b41a",
+      "name": "Основная: 6.Ne5",
+      "group": "extended",
+      "seedPlies": 11,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Slav Defense: Czech Variation, Krause Attack"
+    },
+    {
+      "course": "slav",
+      "id": "slav-x-954d42bc9ddf",
+      "name": "Основная: вариант Смыслова",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Slav Defense: Smyslov Variation"
+    },
+    {
+      "course": "slav",
+      "id": "slav-x-2c08ce8d4be5",
+      "name": "Полуславянская: система с Qc2",
+      "group": "extended",
+      "seedPlies": 11,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Semi-Slav Defense"
+    },
+    {
+      "course": "slav",
+      "id": "slav-x-4eaab9628e10",
+      "name": "Полуславянская: московский размен",
+      "group": "extended",
+      "seedPlies": 12,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Semi-Slav Defense: Moscow Variation"
+    },
+    {
+      "course": "slav",
+      "id": "slav-x-e41b1e61f1d7",
+      "name": "Полуславянская: антимосковский гамбит",
+      "group": "extended",
+      "seedPlies": 13,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Semi-Slav Defense: Anti-Moscow Gambit"
+    },
+    {
+      "course": "slav",
+      "id": "slav-x-28ade305099f",
+      "name": "Лондон вместо c4",
+      "group": "early",
+      "seedPlies": 6,
+      "plies": 20,
+      "side": "b",
+      "referenceName": "Queen's Pawn Game: Accelerated London System"
+    },
+    {
+      "course": "slav",
+      "id": "slav-x-baefb2a8b126",
+      "name": "Система Колле без c4",
+      "group": "early",
+      "seedPlies": 6,
+      "plies": 20,
+      "side": "b",
+      "referenceName": "Queen's Pawn Game: Colle System"
+    },
+    {
+      "course": "slav",
+      "id": "slav-x-b4024607360a",
+      "name": "Белые играют 2.Nc3",
+      "group": "early",
+      "seedPlies": 4,
+      "plies": 20,
+      "side": "b",
+      "referenceName": "Queen's Pawn Game: Chigorin Variation"
+    },
+    {
+      "course": "petrov",
+      "id": "petrov-x-1a934f77b5b7",
+      "name": "Продолжение: Классический вариант",
+      "group": "deeper",
+      "seedPlies": 14,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Petrov's Defense: Classical Attack, Marshall Variation"
+    },
+    {
+      "course": "petrov",
+      "id": "petrov-x-b6cffe76e4b2",
+      "name": "Продолжение: Атака Стейница",
+      "group": "deeper",
+      "seedPlies": 13,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Petrov's Defense: Modern Attack, Center Attack"
+    },
+    {
+      "course": "petrov",
+      "id": "petrov-x-4488045ae405",
+      "name": "Продолжение: Система с Nc3",
+      "group": "deeper",
+      "seedPlies": 12,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Petrov's Defense: Three Knights Game"
+    },
+    {
+      "course": "petrov",
+      "id": "petrov-x-83dbd1d4358b",
+      "name": "Классическая: …Be7",
+      "group": "extended",
+      "seedPlies": 12,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Petrov's Defense: Classical Attack"
+    },
+    {
+      "course": "petrov",
+      "id": "petrov-x-21aae098e3a4",
+      "name": "Классическая: …Nc6",
+      "group": "extended",
+      "seedPlies": 12,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Petrov's Defense: Classical Attack, Mason-Showalter Variation"
+    },
+    {
+      "course": "petrov",
+      "id": "petrov-x-d928e05900d6",
+      "name": "Классическая: белые играют c4",
+      "group": "extended",
+      "seedPlies": 15,
+      "plies": 21,
+      "side": "wb",
+      "referenceName": "Petrov's Defense: Classical Attack, Marshall Variation"
+    },
+    {
+      "course": "petrov",
+      "id": "petrov-x-db7238f4ae7d",
+      "name": "Система Нимцовича 5.Nc3",
+      "group": "extended",
+      "seedPlies": 11,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Petrov's Defense: Nimzowitsch Attack"
+    },
+    {
+      "course": "petrov",
+      "id": "petrov-x-cf7e26ad88c3",
+      "name": "Система с Qe2",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Petrov's Defense: Cozio Attack"
+    },
+    {
+      "course": "petrov",
+      "id": "petrov-x-059a5464a414",
+      "name": "Спокойное 5.d3",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Petrov's Defense: French Attack"
+    },
+    {
+      "course": "petrov",
+      "id": "petrov-x-892b6c0e749f",
+      "name": "Атака Стейница: …Nxe4",
+      "group": "extended",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Petrov's Defense: Modern Attack, Center Variation"
+    },
+    {
+      "course": "petrov",
+      "id": "petrov-x-496b3d913c5c",
+      "name": "Три коня: белые не берут e5",
+      "group": "extended",
+      "seedPlies": 6,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Petrov's Defense: Three Knights Game"
+    },
+    {
+      "course": "petrov",
+      "id": "petrov-x-3925fff582f5",
+      "name": "Слон на c4",
+      "group": "extended",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Bishop's Opening: Boden-Kieseritzky Gambit"
+    },
+    {
+      "course": "petrov",
+      "id": "petrov-x-40b2072daa54",
+      "name": "Гамбит Стаффорда: принять",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Petrov's Defense: Stafford Gambit Accepted"
+    },
+    {
+      "course": "petrov",
+      "id": "petrov-x-351f23822b05",
+      "name": "Гамбит Кохрена: защита чёрных",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "b",
+      "referenceName": "Petrov's Defense: Cochrane Gambit, Center Variation"
+    },
+    {
+      "course": "petrov",
+      "id": "petrov-x-ded2a44af5c1",
+      "name": "Ошибка порядка …Nxe4 вместо …d6",
+      "group": "extended",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "w",
+      "referenceName": "Petrov's Defense: Damiano Variation"
+    },
+    {
+      "course": "petrov",
+      "id": "petrov-x-1ced68f38478",
+      "name": "Белые вывели ферзя Qh5",
+      "group": "early",
+      "seedPlies": 3,
+      "plies": 20,
+      "side": "b",
+      "referenceName": "King's Pawn Game: Wayward Queen Attack"
+    },
+    {
+      "course": "petrov",
+      "id": "petrov-x-3b60c4ee98e1",
+      "name": "Белые начинают слоном Bc4",
+      "group": "early",
+      "seedPlies": 3,
+      "plies": 20,
+      "side": "b",
+      "referenceName": "Bishop's Opening"
+    },
+    {
+      "course": "petrov",
+      "id": "petrov-x-aa73dcd980d1",
+      "name": "Белые выбирают венское Nc3",
+      "group": "early",
+      "seedPlies": 3,
+      "plies": 20,
+      "side": "b",
+      "referenceName": "Vienna Game"
+    },
+    {
+      "course": "petrov",
+      "id": "petrov-x-e3244031f431",
+      "name": "Белые предлагают королевский гамбит",
+      "group": "early",
+      "seedPlies": 3,
+      "plies": 20,
+      "side": "b",
+      "referenceName": "King's Gambit"
+    },
+    {
+      "course": "alekhine",
+      "id": "alekhine-x-b0eec15698de",
+      "name": "Продолжение: Современная система",
+      "group": "deeper",
+      "seedPlies": 12,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Alekhine Defense: Modern Variation, Main Line"
+    },
+    {
+      "course": "alekhine",
+      "id": "alekhine-x-b9097136b08c",
+      "name": "Продолжение: Разменный вариант",
+      "group": "deeper",
+      "seedPlies": 14,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Alekhine Defense: Exchange Variation"
+    },
+    {
+      "course": "alekhine",
+      "id": "alekhine-x-69d03d3f5b61",
+      "name": "Продолжение: Атака четырёх пешек",
+      "group": "deeper",
+      "seedPlies": 14,
+      "plies": 24,
+      "side": "wb",
+      "referenceName": "Alekhine Defense: Four Pawns Attack, Main Line"
+    },
+    {
+      "course": "alekhine",
+      "id": "alekhine-x-8c6024cce7a5",
+      "name": "Разменная: взятие e-пешкой",
+      "group": "extended",
+      "seedPlies": 10,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Alekhine Defense: Exchange Variation"
+    },
+    {
+      "course": "alekhine",
+      "id": "alekhine-x-926d16ad79c9",
+      "name": "Разменная: Воронежская система",
+      "group": "extended",
+      "seedPlies": 15,
+      "plies": 21,
+      "side": "wb",
+      "referenceName": "Alekhine Defense: Exchange Variation"
+    },
+    {
+      "course": "alekhine",
+      "id": "alekhine-x-d2161dcaac02",
+      "name": "Современная: …g6",
+      "group": "extended",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Alekhine Defense: Modern Variation, Alburt Variation"
+    },
+    {
+      "course": "alekhine",
+      "id": "alekhine-x-fe1d1bd95347",
+      "name": "Современная: …dxe5",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Alekhine Defense: Modern Variation, Larsen Variation"
+    },
+    {
+      "course": "alekhine",
+      "id": "alekhine-x-59be294a464e",
+      "name": "Современная: …Nc6",
+      "group": "extended",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Alekhine Defense: Modern Variation, Larsen-Haakert Variation"
+    },
+    {
+      "course": "alekhine",
+      "id": "alekhine-x-6c7c08d3b8f8",
+      "name": "Четыре пешки: развитие Nf3",
+      "group": "extended",
+      "seedPlies": 13,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Alekhine Defense: Four Pawns Attack"
+    },
+    {
+      "course": "alekhine",
+      "id": "alekhine-x-d63d27945141",
+      "name": "Атака двух пешек",
+      "group": "extended",
+      "seedPlies": 9,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Alekhine Defense: Two Pawns Attack, Lasker Variation"
+    },
+    {
+      "course": "alekhine",
+      "id": "alekhine-x-9324f4222f7c",
+      "name": "Вариант с ранним Bc4",
+      "group": "extended",
+      "seedPlies": 7,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Alekhine Defense: Normal Variation"
+    },
+    {
+      "course": "alekhine",
+      "id": "alekhine-x-f6622603826a",
+      "name": "Белые играют 2.Nc3",
+      "group": "extended",
+      "seedPlies": 6,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Alekhine Defense: Scandinavian Variation"
+    },
+    {
+      "course": "alekhine",
+      "id": "alekhine-x-aa3aab87854c",
+      "name": "Белые играют 2.d3",
+      "group": "extended",
+      "seedPlies": 5,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Alekhine Defense: Maróczy Variation"
+    },
+    {
+      "course": "alekhine",
+      "id": "alekhine-x-dd0019953b52",
+      "name": "Раннее …Nb6 после Nf3",
+      "group": "extended",
+      "seedPlies": 8,
+      "plies": 20,
+      "side": "wb",
+      "referenceName": "Alekhine Defense: Modern Variation, Schmid Variation"
+    },
+    {
+      "course": "alekhine",
+      "id": "alekhine-x-312f974a2d01",
+      "name": "Белые играют 2.Bc4",
+      "group": "early",
+      "seedPlies": 3,
+      "plies": 20,
+      "side": "b",
+      "referenceName": "Alekhine Defense: Krejcik Variation"
+    },
+    {
+      "course": "alekhine",
+      "id": "alekhine-x-25a1fe8347b5",
+      "name": "Белые защищают пешку 2.Qe2",
+      "group": "early",
+      "seedPlies": 3,
+      "plies": 20,
+      "side": "b",
+      "referenceName": "Alekhine Defense"
+    }
+  ],
+  "duplicates": [],
+  "total": 452,
+  "uniqueSequences": 404
+}

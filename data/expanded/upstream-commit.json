@@ -1,0 +1,106 @@
+{
+  "sha": "a6189a30dc273ccb21fc2536a9a2fefd5592a67a",
+  "node_id": "C_kwDOAyFdz9oAKGE2MTg5YTMwZGMyNzNjY2IyMWZjMjUzNmE5YTJmZWZkNTU5MmE2N2E",
+  "commit": {
+    "author": {
+      "name": "Christopher Akiki",
+      "email": "christopher.akiki@gmail.com",
+      "date": "2026-10-06T18:31:10Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-10-06T18:31:10Z"
+    },
+    "message": "Merge pull request #406 from Zinkelburger/kasparov-vaganian-gambit\n\nRename Kasparov Gambit to Kasparov-Vaganian Gambit (A31)",
+    "tree": {
+      "sha": "5b4fc89aec77a5e81435722eaa9a3eec020efa22",
+      "url": "https://api.github.com/repos/lichess-org/chess-openings/git/trees/5b4fc89aec77a5e81435722eaa9a3eec020efa22"
+    },
+    "url": "https://api.github.com/repos/lichess-org/chess-openings/git/commits/a6189a30dc273ccb21fc2536a9a2fefd5592a67a",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqxT5uCRC1aQ7uu5UhlAAABfUQAGVr2+D2sghgvKG20kVjC9uK\nGZfc91fBJxGyNiVTC8yxJY6Oc0GvpGfmobdMpph4QevuyA6DqwfT1UL4HyxtscSi\nhKjJLo0pC3UaeDuuCFKyHIZ7hS1/LJg8/r/KCojnRL9B1Rcd6U4sVZa+SGUCvrVn\nBNUNRL/d5KNRDgeMX6cQ35W0xH6ys2IE/qeCMA/8J/aNW525DRRSI0S1XcqbFzQs\n1mx40bDgwbO/nTpyApQAu1OvCxDKVqC3yafPipw+W7zIpl/+0d4Lb4Qjs1WAaA+4\nZNuy8t6d4YuAM7Tots3S21YH3Com8ZY5YZJZN4gB0GK0pHTVYnTo8zLWxoHOE/TD\nfMupqV66sByXq3AxIpM/1kR6WpTSgnGKzLLAOrQhq6cX+whOZE6tnYsXtgO6txmF\n390ZknQNmiQdj0FIakD2O2X+6oaiyLC0QneB8vfWO3e7djc6R0ai/Wo2e2ph35GN\n4QSE/YD4+uZRcUKJRNgwwmM27t4YNBDHgsSt4ukHGqDBNVhY2hY8D/Hvv8qfeV+z\nl7/L5PvzVGcbmSM1X9qr+9H3VAo8neKjuVwcOf+8HibuKazFBSnfVwC2GigwDjIf\n3fhjfx4K61xkALpoZCBP1FJCDEYbFf9Z2vI3v/JJASsMdCiRAZmgRMu8a2wWxEyR\n6BZ4JxVObkcHOp4RCy+6\n=MWPu\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 5b4fc89aec77a5e81435722eaa9a3eec020efa22\nparent 65bb03f76c7f077984db01a2f2d0534e4181ddfe\nparent 2e370feebbdbf00503a9f07e2033fbdfc2103c74\nauthor Christopher Akiki <christopher.akiki@gmail.com> 1791311470 +0200\ncommitter GitHub <noreply@github.com> 1791311470 +0200\n\nMerge pull request #406 from Zinkelburger/kasparov-vaganian-gambit\n\nRename Kasparov Gambit to Kasparov-Vaganian Gambit (A31)",
+      "verified_at": "2026-10-06T18:31:10Z"
+    }
+  },
+  "url": "https://api.github.com/repos/lichess-org/chess-openings/commits/a6189a30dc273ccb21fc2536a9a2fefd5592a67a",
+  "html_url": "https://github.com/lichess-org/chess-openings/commit/a6189a30dc273ccb21fc2536a9a2fefd5592a67a",
+  "comments_url": "https://api.github.com/repos/lichess-org/chess-openings/commits/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/comments",
+  "author": {
+    "login": "cakiki",
+    "id": 3664563,
+    "node_id": "MDQ6VXNlcjM2NjQ1NjM=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/3664563?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cakiki",
+    "html_url": "https://github.com/cakiki",
+    "followers_url": "https://api.github.com/users/cakiki/followers",
+    "following_url": "https://api.github.com/users/cakiki/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cakiki/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cakiki/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cakiki/subscriptions",
+    "organizations_url": "https://api.github.com/users/cakiki/orgs",
+    "repos_url": "https://api.github.com/users/cakiki/repos",
+    "events_url": "https://api.github.com/users/cakiki/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cakiki/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "65bb03f76c7f077984db01a2f2d0534e4181ddfe",
+      "url": "https://api.github.com/repos/lichess-org/chess-openings/commits/65bb03f76c7f077984db01a2f2d0534e4181ddfe",
+      "html_url": "https://github.com/lichess-org/chess-openings/commit/65bb03f76c7f077984db01a2f2d0534e4181ddfe"
+    },
+    {
+      "sha": "2e370feebbdbf00503a9f07e2033fbdfc2103c74",
+      "url": "https://api.github.com/repos/lichess-org/chess-openings/commits/2e370feebbdbf00503a9f07e2033fbdfc2103c74",
+      "html_url": "https://github.com/lichess-org/chess-openings/commit/2e370feebbdbf00503a9f07e2033fbdfc2103c74"
+    }
+  ],
+  "stats": {
+    "total": 2,
+    "additions": 1,
+    "deletions": 1
+  },
+  "files": [
+    {
+      "sha": "561099854a15dfb523759aa87993a1fe480a6abc",
+      "filename": "a.tsv",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/lichess-org/chess-openings/blob/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv",
+      "raw_url": "https://github.com/lichess-org/chess-openings/raw/a6189a30dc273ccb21fc2536a9a2fefd5592a67a/a.tsv",
+      "contents_url": "https://api.github.com/repos/lichess-org/chess-openings/contents/a.tsv?ref=a6189a30dc273ccb21fc2536a9a2fefd5592a67a",
+      "patch": "@@ -458,7 +458,7 @@ A30\tEnglish Opening: Symmetrical Variation, Napolitano Gambit\t1. c4 c5 2. Nf3 Nf\n A30\tEnglish Opening: Symmetrical, Hedgehog, Flexible Formation\t1. c4 e6 2. Nf3 c5 3. Nc3 Nf6 4. g3 b6 5. Bg2 Bb7 6. O-O Be7 7. d4 cxd4 8. Qxd4 d6 9. Rd1 a6 10. b3 Nbd7\n A30\tEnglish Opening: Wing Gambit\t1. c4 c5 2. b4\n A31\tEnglish Opening: Symmetrical Variation, Anti-Benoni Variation\t1. c4 Nf6 2. d4 c5 3. Nf3\n-A31\tEnglish Opening: Symmetrical Variation, Anti-Benoni Variation, Kasparov Gambit\t1. d4 Nf6 2. c4 c5 3. Nf3 cxd4 4. Nxd4 e5 5. Nb5 d5\n+A31\tEnglish Opening: Symmetrical Variation, Anti-Benoni Variation, Kasparov-Vaganian Gambit\t1. d4 Nf6 2. c4 c5 3. Nf3 cxd4 4. Nxd4 e5 5. Nb5 d5\n A32\tEnglish Opening: Symmetrical Variation, Anti-Benoni Variation, Spielmann Defense\t1. c4 e6 2. d4 c5 3. Nf3 cxd4 4. Nxd4 Nf6\n A33\tEnglish Opening: Symmetrical Variation, Anti-Benoni Variation, Geller Variation\t1. c4 e6 2. Nf3 Nf6 3. Nc3 c5 4. d4 Nc6 5. g3 cxd4 6. Nxd4 Qb6\n A33\tEnglish Opening: Symmetrical Variation, Anti-Benoni Variation, Spielmann Defense\t1. c4 e6 2. Nf3 Nf6 3. Nc3 c5 4. d4 cxd4 5. Nxd4 Nc6"
+    }
+  ]
+}

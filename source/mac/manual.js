@@ -4,7 +4,7 @@ const positionSignature=fen=>fen.split(' ').slice(0,4).join(' ');
 function manualBookRows(){
   if(!S?.manual)return [];
   const key=positionSignature(S.game.fen()),rows=[];
-  const sorted=[S.active,...S.course.lines.filter(l=>l.id!==S.active.id)];
+  const sorted=[S.active,...eligibleLines(S.course,S.side).filter(l=>l.id!==S.active.id)];
   for(const line of sorted)for(let ply=0;ply<line.history.length;ply++){
     const move=line.history[ply];if(positionSignature(move.before)!==key)continue;
     if(!rows.some(r=>r.move.san===move.san))rows.push({line,ply,move});
@@ -106,7 +106,7 @@ function renderManualGuide(){
   const choices=visible?(result?[result.move.san]:rows.map(r=>r.move.san)):[];
   $('expectedMoves').innerHTML=choices.map(san=>'<button class="expected-chip" data-expected="'+esc(san)+'" title="Сыграть предложенный ход">'+esc(san)+'</button>').join('');
   const book=rows.length&&!result;for(const el of [$('yourPlan').parentElement,$('opponentPlan').parentElement,$('courseWarning').closest('.caution')])el.hidden=!book||S.view!==null||!own;
-  if(book){$('yourPlan').textContent=S.side==='w'?S.course.whitePlan:S.course.blackPlan;$('opponentPlan').textContent=S.side==='w'?S.course.blackPlan:S.course.whitePlan;$('courseWarning').textContent=S.course.warning;}
+  if(book){$('yourPlan').textContent=S.side==='w'?(S.active.whitePlan||S.course.whitePlan):(S.active.blackPlan||S.course.blackPlan);$('opponentPlan').textContent=S.side==='w'?(S.active.blackPlan||S.course.blackPlan):(S.active.whitePlan||S.course.whitePlan);$('courseWarning').textContent=S.active.warning||S.course.warning;}
   $('engineResult').hidden=!result||!visible;
   if(result&&visible){$('engineResult').innerHTML='<div class="eyebrow">'+esc(engineScoreLabel(result))+'</div><p class="engine-search-meta">Stockfish 19 Lite · глубина '+result.depth+' · '+(result.elapsed/1000).toFixed(1)+' с</p><strong>Возможное продолжение</strong>'+result.variations.filter(v=>v.moves[0]?.san===result.move.san).slice(0,1).map(v=>'<div class="engine-pv"><span>'+v.rank+'</span><p>'+esc(formatEngineLine(v.moves,result.fen))+'</p></div>').join('')+'<small>Это варианты расчёта, не предсказание ходов соперника. Другой твой ход не объявляется ошибкой.</small>';}
 }
