@@ -13,7 +13,7 @@ const PRECACHE=[
 ];
 self.addEventListener("install",event=>{
  event.waitUntil(
-   caches.open(CACHE).then(cache=>cache.addAll(PRECACHE)).then(()=>self.skipWaiting())
+   caches.open(CACHE).then(cache=>cache.addAll(PRECACHE.map(url=>new Request(url,{cache:"reload"})))).then(()=>self.skipWaiting())
  );
 });
 self.addEventListener("activate",event=>{
@@ -29,7 +29,7 @@ self.addEventListener("fetch",event=>{
  if(url.pathname.endsWith("/version.json")){event.respondWith(fetch(request,{cache:"no-store"}));return;}
  if(request.mode==="navigate"){
    // Try online updates first, but preserve the complete chess program for offline play.
-   event.respondWith(fetch(request).then(async response=>{
+   event.respondWith(fetch(request,{cache:"no-store"}).then(async response=>{
      if(response.ok){
        try{const cache=await caches.open(CACHE);await cache.put(INDEX,response.clone());}catch{}
      }
